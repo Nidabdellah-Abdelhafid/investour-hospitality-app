@@ -10,22 +10,19 @@ function Advantage() {
     <li><a>How we work together</a></li>
   </ul>
 </div>
-        <div className="indicator">
-  <span className="indicator-item indicator-center indicator-middle badge badge-secondary">
-    Uploading Image...
-  </span>
-  <img
-    alt="Tailwind CSS examples"
-    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" />
-</div>
-<div className="indicator">
-  <span className="indicator-item indicator-center indicator-middle badge badge-secondary">
-    Uploading Image...
-  </span>
-  <img
-    alt="Tailwind CSS examples"
-    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" />
-</div>
+<section className="content-section p-10">
+        <div className="container mx-auto text-center lg:text-left">
+          <h2 className="text-4xl font-bold mb-4">Developing the Future Together</h2>
+          <p className="text-lg leading-relaxed mb-6">
+            Investour Hospitality succeeds when you do. Our team looks forward to working with you to understand your hotel development goals, offer our hospitality expertise and support your business objectives to achieve long-term success.
+          </p>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Hotel Development"
+            className="w-full lg:w-1/2 object-cover rounded-lg"
+          />
+        </div>
+      </section>
         </div>
   )
 }
