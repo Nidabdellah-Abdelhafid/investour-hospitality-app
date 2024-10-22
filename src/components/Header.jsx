@@ -17,6 +17,9 @@ function Header() {
       setScrolled(false);
     }
   };
+  const closeMenu = () => {
+    setMenuOpen(false); // Closes the menu
+  };
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -28,7 +31,7 @@ function Header() {
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <div className="header-left">
-        <Link to="/">
+        <Link to="/" onClick={closeMenu}>
       <h1 className="logo">
         <svg xmlns="http://www.w3.org/2000/svg" width="151.246" height="53.98" viewBox="0 0 151.246 53.98">
             <g id="Investour_Hospitality" data-name="Investour Hospitality" transform="translate(-89.53 -158.65)">
@@ -60,12 +63,12 @@ function Header() {
       </div>
       
       <nav className={`header-nav ${menuOpen ? 'open' : ''}`}>
-        <Link to="/advantage"><p>INVESTOUR HOSPITALITY ADVANTAGE</p></Link>
-        <Link to="/developement"><p>INVESTOUR HOSPITALITY DEVELOPMENT</p></Link>
-        <Link to="/brands"><p>BRANDS</p></Link>
-        <Link to="/work"><p>HOW WE WORK TOGETHER</p></Link>
+        <Link to="/advantage" onClick={closeMenu}><p>INVESTOUR HOSPITALITY ADVANTAGE</p></Link>
+        <Link to="/developement" onClick={closeMenu}><p>INVESTOUR HOSPITALITY DEVELOPMENT</p></Link>
+        <Link to="/brands" onClick={closeMenu}><p>BRANDS</p></Link>
+        <Link to="/work" onClick={closeMenu}><p>HOW WE WORK TOGETHER</p></Link>
         <div className="header-right">
-          <a href="#contact" className="contact-button">
+          <a href="#contact" className="contact-button" onClick={closeMenu}>
             <span className="phone-icon"><FaPhoneAlt /></span> CONTACT US
           </a>
         </div>

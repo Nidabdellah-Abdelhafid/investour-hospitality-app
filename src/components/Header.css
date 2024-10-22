@@ -87,6 +87,7 @@
       top: 70px;
       left: 0;
       width: 100%;
+      gap: 5px;
       flex-direction: column;
       background-color: #3e005f;
       padding: 15px 0;
