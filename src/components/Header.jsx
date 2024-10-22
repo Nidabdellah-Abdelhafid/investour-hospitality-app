@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
 import { FaPhoneAlt, FaBars, FaTimes } from "react-icons/fa"; // Menu icons
-import { Link } from 'react-router-dom'; 
+import { Link, useLocation } from 'react-router-dom'; 
+
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();  // Get the current route
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -17,6 +19,7 @@ function Header() {
       setScrolled(false);
     }
   };
+
   const closeMenu = () => {
     setMenuOpen(false); // Closes the menu
   };
@@ -28,8 +31,11 @@ function Header() {
     };
   }, []);
 
+  // Check if the current path is the home page
+  const isHomePage = location.pathname === '/';
+
   return (
-    <header className={`header ${scrolled ? 'scrolled' : ''}`}>
+    <header className={`header ${isHomePage && !scrolled ? '' : 'scrolled'}`}>
       <div className="header-left">
         <Link to="/" onClick={closeMenu}>
       <h1 className="logo">

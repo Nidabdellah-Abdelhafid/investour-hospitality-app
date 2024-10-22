@@ -1,5 +1,5 @@
 /* General Styles */
-.header {
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,9 +13,9 @@
     z-index: 50;
     transition: background-color 0.3s ease, padding 0.3s ease;
   }
-  
+
   .header.scrolled {
-    background-color: #3e005f; /* Add background color when scrolled */
+    background-color: #3e005f; /* Add background color when not on Home or scrolled */
     padding: 15px 40px; /* Optionally reduce padding to make it more compact */
   }
   

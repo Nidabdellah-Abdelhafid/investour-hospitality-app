@@ -4,12 +4,12 @@ function Advantage() {
   return (
     <div className='m-14'>
         
-        <div className="breadcrumbs text-sm m-14 p-5">
-  <ul>
-    <li><a>Home</a></li>
-    <li><a>How we work together</a></li>
-  </ul>
-</div>
+      <div className="breadcrumbs text-sm m-14 p-5">
+      <ul>
+        <li><a>Home</a></li>
+        <li><a>How we work together</a></li>
+      </ul>
+    </div>
 <section className="content-section p-10">
         <div className="container mx-auto text-center lg:text-left">
           <h2 className="text-4xl font-bold mb-4">Developing the Future Together</h2>
