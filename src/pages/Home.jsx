@@ -51,7 +51,7 @@ const Home = () => {
           </div>
 
           {/* Carousel Controls Section */}
-          <div className="absolute right-36 sm:right-5 bottom-10 sm:bottom-5 md:right-10 md:bottom-10 z-1 flex flex-col items-center space-y-2">
+          <div className="absolute bottom-8 sm:bottom-36 left-1/2 transform -translate-x-1/2 md:bottom-24 md:right-36 md:translate-x-1/2 text-white z-10 flex flex-col items-center  space-y-2">
             <div className="flex space-x-2">
               <a
                 href="#slide4"
@@ -86,7 +86,7 @@ const Home = () => {
           </div>
 
           {/* Carousel Controls Section */}
-          <div className="absolute right-36 sm:right-5 bottom-10 sm:bottom-5 md:right-10 md:bottom-10 z-1 flex flex-col items-center space-y-2">
+          <div className="absolute bottom-8 sm:bottom-36 left-1/2 transform -translate-x-1/2 md:bottom-24 md:right-36 md:translate-x-1/2 text-white z-10 flex flex-col items-center  space-y-2">
             <div className="flex space-x-2">
               <a
                 href="#slide1"
@@ -121,7 +121,7 @@ const Home = () => {
           </div>
 
           {/* Carousel Controls Section */}
-          <div className="absolute right-36 sm:right-5 bottom-10 sm:bottom-5 md:right-10 md:bottom-10 z-1 flex flex-col items-center space-y-2">
+          <div className="absolute bottom-8 sm:bottom-36 left-1/2 transform -translate-x-1/2 md:bottom-24 md:right-36 md:translate-x-1/2 text-white z-10 flex flex-col items-center  space-y-2">
             <div className="flex space-x-2">
               <a
                 href="#slide2"
@@ -156,7 +156,7 @@ const Home = () => {
           </div>
 
           {/* Carousel Controls Section */}
-          <div className="absolute right-36 sm:right-5 bottom-10 sm:bottom-5 md:right-10 md:bottom-10 z-1 flex flex-col items-center space-y-2">
+          <div className="absolute bottom-8 sm:bottom-36 left-1/2 transform -translate-x-1/2 md:bottom-24 md:right-36 md:translate-x-1/2 text-white z-10 flex flex-col items-center  space-y-2">
             <div className="flex space-x-2">
               <a
                 href="#slide3"
