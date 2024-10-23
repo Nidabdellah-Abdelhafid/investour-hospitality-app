@@ -1,7 +1,37 @@
-import React from 'react';
-import { IoChevronBackOutline, IoChevronForward } from "react-icons/io5";
+import React, { useRef, useState } from 'react';
+import { IoChevronBackOutline, IoChevronForward, IoCaretForwardCircleOutline, IoPauseCircleOutline } from "react-icons/io5";
 
-function Home() {
+
+const Home = () => {
+  const videoRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
+  const [controlsVisible, setControlsVisible] = useState(true); // Track control visibility
+
+  // Function to toggle play/pause
+  const togglePlayPause = () => {
+    const video = videoRef.current;
+    if (video.paused) {
+      video.play();
+      setIsPlaying(true);
+      setControlsVisible(false); // Hide controls after the first play
+    } else {
+      video.pause();
+      setIsPlaying(false);
+      setControlsVisible(true); // Hide controls after the first play
+
+    }
+  };
+
+  // Function to handle mouse hover state
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   return (
     <div>
       {/* Carousel Section */}
@@ -147,19 +177,69 @@ function Home() {
       </div>
 
       {/* Content Section */}
-      <section className="content-section p-10">
-        <div className="container mx-auto text-center lg:text-left">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Developing the Future Together</h2>
-          <p className="text-sm sm:text-lg leading-relaxed mb-6">
-            Investour Hospitality succeeds when you do. Our team looks forward to working with you to understand your hotel development goals, offer our hospitality expertise and support your business objectives to achieve long-term success.
+      <div className="flex flex-col lg:flex-row justify-between mb-5" style={{ backgroundColor: '#FCF7FF' }}>
+        {/* Text Section */}
+        <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12 px-6 md:px-12 lg:px-16 xl:px-32 py-8 lg:py-16">
+          <h1 className="text-2xl md:text-3xl lg:text-5xl font-semibold mb-6 lg:mb-10 text-start" style={{ color: '#281A2A' }}>
+            Developing the Future Together
+          </h1>
+          <div className="flex my-2">
+            <div className="w-2 h-[146px] lg:h-29" style={{ backgroundColor: '#281A2A' }}></div>
+            <p className="text-base md:text-lg lg:text-lg mb-6 font-medium text-start ml-6 lg:ml-10 my-2 mx-2 lg:mx-4" style={{ color: '#281A2A' }}>
+              Investour Hospitality succeeds when you do. Our team looks forward to working with you to understand your hotel development goals, offer our hospitality expertise, and support your business objectives to achieve long-term success.
+            </p>
+          </div>
+
+          <p className="text-sm md:text-base text-gray-600 mb-6 lg:mb-10 text-start">
+            Investour Hospitality is the world’s largest travel company, offering unmatched choice for guests and driving unrivaled value for owners. With our expansive portfolio of brands, dynamic sales and marketing platform, and the world’s most admired guest loyalty program, we focus on driving long-term profitable partnerships with owners. It’s never been easier for owners to tap into the power of the world’s leading hospitality company.
           </p>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="Hotel Development"
-            className="w-full lg:w-1/2 object-cover rounded-lg"
-          />
+
+          <button className="relative inline-flex items-center px-6 py-4 border-2 border-gray-800 text-gray-800 font-bold uppercase hover:bg-primary hover:text-white transition duration-300">
+            <span className="absolute left-[-42px] w-14 h-[2px] bg-gray-800 transition-all duration-300 group-hover:w-12"></span>
+            Learn More
+          </button>
         </div>
-      </section>
+
+        {/* Video Section */}
+        <section className="relative lg:w-1/2 px-6 md:px-12 lg:px-16 xl:px-12 py-8 lg:py-16"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <video
+            ref={videoRef}
+            className="w-full h-auto"
+            poster={`${process.env.PUBLIC_URL}/img/Groupe de masques 2.png`}
+          >
+            <source src={`${process.env.PUBLIC_URL}/img/Mamounia_Marrakech.mp4`} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
+          {/* Show controls initially, hide after first play */}
+          {controlsVisible && (
+            <div className="absolute inset-0 text-white px-4 py-2 text-xs md:text-sm lg:text-lg flex gap-4 items-center justify-center">
+              <span className="cursor-pointer text-center" onClick={togglePlayPause}>
+                Watch the Video
+              </span>
+              <IoCaretForwardCircleOutline size={40} onClick={togglePlayPause} />
+            </div>
+          )}
+
+          {/* Show "Pause the Video" when hovered and playing */}
+          {isHovered && isPlaying && (
+            <div className="absolute inset-0 text-white px-4 py-2 text-xs md:text-sm lg:text-lg flex gap-4 items-center justify-center">
+              <span className="cursor-pointer text-center" onClick={togglePlayPause}>
+                Pause the Video
+              </span>
+              <IoPauseCircleOutline size={40} onClick={togglePlayPause} />
+            </div>
+          )}
+
+          {/* Caption for the Video */}
+          <p className="absolute bottom-12 left-10 lg:bottom-20 lg:left-16 text-white text-2xs lg:text-4sm">LA MAMOUNIA - Marrakesh</p>
+        </section>
+      </div>
+
+
     </div>
   );
 }
