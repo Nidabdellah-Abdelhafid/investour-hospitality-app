@@ -86,7 +86,7 @@ const Home = () => {
           </div>
 
           {/* Carousel Controls Section */}
-          <div className="absolute right-10 sm:right-5 bottom-10 sm:bottom-5 md:right-10 md:bottom-10 z-1 flex flex-col items-center space-y-2">
+          <div className="absolute right-36 sm:right-5 bottom-10 sm:bottom-5 md:right-10 md:bottom-10 z-1 flex flex-col items-center space-y-2">
             <div className="flex space-x-2">
               <a
                 href="#slide1"
@@ -121,7 +121,7 @@ const Home = () => {
           </div>
 
           {/* Carousel Controls Section */}
-          <div className="absolute right-10 sm:right-5 bottom-10 sm:bottom-5 md:right-10 md:bottom-10 z-1 flex flex-col items-center space-y-2">
+          <div className="absolute right-36 sm:right-5 bottom-10 sm:bottom-5 md:right-10 md:bottom-10 z-1 flex flex-col items-center space-y-2">
             <div className="flex space-x-2">
               <a
                 href="#slide2"
@@ -156,7 +156,7 @@ const Home = () => {
           </div>
 
           {/* Carousel Controls Section */}
-          <div className="absolute right-36 sm:right-36 bottom-10 sm:bottom-5 md:right-10 md:bottom-10 z-1 flex flex-col items-center space-y-2">
+          <div className="absolute right-36 sm:right-5 bottom-10 sm:bottom-5 md:right-10 md:bottom-10 z-1 flex flex-col items-center space-y-2">
             <div className="flex space-x-2">
               <a
                 href="#slide3"
