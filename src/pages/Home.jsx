@@ -190,14 +190,16 @@ const Home = () => {
             </p>
           </div>
 
-          <p className="text-sm md:text-base text-gray-600 mb-6 lg:mb-10 text-start">
+          <p className="text-sm md:text-base text-gray-600 mb-14 my-5 lg:mb-10 text-start">
             Investour Hospitality is the world’s largest travel company, offering unmatched choice for guests and driving unrivaled value for owners. With our expansive portfolio of brands, dynamic sales and marketing platform, and the world’s most admired guest loyalty program, we focus on driving long-term profitable partnerships with owners. It’s never been easier for owners to tap into the power of the world’s leading hospitality company.
           </p>
-
-          <button className="relative inline-flex items-center px-6 py-4 border-2 border-gray-800 text-gray-800 font-bold uppercase hover:bg-primary hover:text-white transition duration-300">
+          <div className="flex justify-start px-12 py-5">
+          <button className="relative inline-flex items-center px-8 py-4 border-2 border-gray-800 text-gray-800 font-bold uppercase hover:bg-[#6D3D90] hover:text-white transition duration-300">
             <span className="absolute left-[-42px] w-14 h-[2px] bg-gray-800 transition-all duration-300 group-hover:w-12"></span>
             Learn More
           </button>
+          </div>
+          
         </div>
 
         {/* Video Section */}
