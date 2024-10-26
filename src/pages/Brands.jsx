@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollToTopButton from './ScrollToTopButton'
 
 function Brands() {
   return (
@@ -25,6 +26,9 @@ function Brands() {
           />
         </div>
       </section>
+
+
+      <ScrollToTopButton />
     </div>
   )
 }

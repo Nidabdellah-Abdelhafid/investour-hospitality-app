@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollToTopButton from './ScrollToTopButton'
 
 function Advantage() {
   return (
@@ -7,12 +8,12 @@ function Advantage() {
       <div className="breadcrumbs text-sm m-14 p-5">
       <ul>
         <li><a>Home</a></li>
-        <li><a>How we work together</a></li>
+        <li><a>How we work Avontage</a></li>
       </ul>
     </div>
 <section className="content-section p-10">
         <div className="container mx-auto text-center lg:text-left">
-          <h2 className="text-4xl font-bold mb-4">Developing the Future Together</h2>
+          <h2 className="text-4xl font-bold mb-4">Developing the Future Avontage</h2>
           <p className="text-lg leading-relaxed mb-6">
             Investour Hospitality succeeds when you do. Our team looks forward to working with you to understand your hotel development goals, offer our hospitality expertise and support your business objectives to achieve long-term success.
           </p>
@@ -23,6 +24,9 @@ function Advantage() {
           />
         </div>
       </section>
+
+
+      <ScrollToTopButton />
         </div>
   )
 }

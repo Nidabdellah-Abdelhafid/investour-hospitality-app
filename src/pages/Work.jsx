@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollToTopButton from './ScrollToTopButton'
 
 function Work() {
   return (
@@ -23,6 +24,8 @@ function Work() {
           />
         </div>
       </section>
+
+      <ScrollToTopButton />
     </div>
   )
 }

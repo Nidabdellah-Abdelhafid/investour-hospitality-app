@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollToTopButton from './ScrollToTopButton'
 
 function Developement
 () {
@@ -25,6 +26,9 @@ function Developement
           />
         </div>
       </section>
+
+
+      <ScrollToTopButton />
     </div>
   )
 }

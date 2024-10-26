@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { IoChevronBackOutline, IoChevronForward, IoCaretForwardCircleOutline, IoPauseCircleOutline } from "react-icons/io5";
+import ScrollToTopButton from './ScrollToTopButton';
 
 
 const Home = () => {
@@ -213,7 +214,7 @@ const Home = () => {
         </div>
 
         {/* Video Section */}
-        <section className="relative lg:w-1/2 px-6 md:px-12 lg:px-16 xl:px-12 py-8 lg:py-16"
+        <section className="relative lg:w-1/2 px-6 md:px-12 lg:px-16 xl:px-12 py-8 lg:py-16 mb-[-60px] md:mb-[-90px]"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
@@ -479,24 +480,24 @@ const Home = () => {
           </div>
 
           {/* Location Info */}
-          <div className="absolute bottom-3 sm:bottom-4 left-4 sm:left-4 text-white">
+          <div className="absolute bottom-3 sm:bottom-4 left-4 sm:left-4 text-white ">
             <p className="text-xs sm:text-sm">LA MAMOUNIA - Marrakesh</p>
           </div>
         </div>
       </div>
 
-      <div className="flex w-full flex-col  mb-6">
+      <div className="flex w-full flex-col  mb-6 md:mb-20 ">
         <div className="divider"></div>
       </div>
 
-      <div className="card lg:card-side px-8 md:px-36 mb-[-25px] md:mb-[-30px]">
+      <div className="rounded-none card lg:card-side px-8 md:px-36 mb-[-25px] md:mb-[-30px]">
         <figure>
           <img
             src={`${process.env.PUBLIC_URL}/img/Groupe de masques 6.png`}
             alt="Album" />
           
         </figure>
-        <div className="absolute bottom-3 sm:bottom-4 left-40 sm:left-40 text-white">
+        <div className="absolute top-[370px] md:top-[300px] left-12 md:left-40 text-white">
             <p className="text-xs sm:text-sm">LA SULTANA - Marrakech</p>
           </div>
         <div className="card-body bg-opacity-100 bg-[#6D3D90] px-8 md:px-36 py-16"
@@ -506,9 +507,10 @@ const Home = () => {
         >
           <div className="bg-opacity-90 bg-[#6D3D90] "></div>
 
-          <h2 className="card-title font-300 text-white mb-6 text-xl md:text-5xl text-start">GET STARTED TODAY  AND
-            OWN THE FUTURE. ​</h2>
-          <div className="card-actions justify-start">
+          <h2 className="card-title font-300 text-white mb-6 text-6sm md:text-5xl text-start">
+            GET STARTED TODAY  AND OWN THE FUTURE.
+          </h2>
+          <div className="card-actions justify-center md:justify-start  px-4 md:px-2">
             <button className="relative inline-flex items-center text-white border border-white md:py-4 px-4 py-2 sm:px-6 font-700 uppercase hover:bg-white hover:text-purple-900  transition duration-300">
               <span className="absolute left-[-42px] w-14 h-[2px] bg-white transition-all duration-300 group-hover:w-12"></span>
               LEARN MORE
@@ -517,7 +519,7 @@ const Home = () => {
         </div>
       </div>
 
-
+      <ScrollToTopButton />
     </div>
   );
 }
