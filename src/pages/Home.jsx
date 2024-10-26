@@ -394,7 +394,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='flex flex-col md:flex-row items-center px-14 mb-8'>
+        <div className='flex flex-col md:flex-row items-center px-14 mb-16'>
           <div className="flex items-center justify-around w-full max-w-5xl md:mt-8 py-6 md:py-0 gap-5">
             <div className="text-center">
               <h3 className="text-xl md:text-6xl font-semibold text-purple-700">10</h3>
@@ -466,12 +466,12 @@ const Home = () => {
               Finding the Right Fit
             </h1>
             <div className='md:px-60'>
-            <p className="text-white text-base sm:text-lg md:text-xl mb-2 md:mb-4">
-              Whether conversion or new build, managed or franchised, residential or all-inclusive,
-              let us help bring your vision to life.
-            </p>  
+              <p className="text-white text-base sm:text-lg md:text-xl mb-2 md:mb-4">
+                Whether conversion or new build, managed or franchised, residential or all-inclusive,
+                let us help bring your vision to life.
+              </p>
             </div>
-            
+
             <button className="relative inline-flex items-center text-white border border-white md:py-4 px-4 py-2 sm:px-6 font-700 uppercase hover:bg-white hover:text-purple-900  transition duration-300">
               <span className="absolute left-[-42px] w-14 h-[2px] bg-white transition-all duration-300 group-hover:w-12"></span>
               LEARN MORE
@@ -485,7 +485,37 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="flex w-full flex-col  mb-6">
+        <div className="divider"></div>
+      </div>
 
+      <div className="card lg:card-side px-8 md:px-36 mb-[-25px] md:mb-[-30px]">
+        <figure>
+          <img
+            src={`${process.env.PUBLIC_URL}/img/Groupe de masques 6.png`}
+            alt="Album" />
+          
+        </figure>
+        <div className="absolute bottom-3 sm:bottom-4 left-40 sm:left-40 text-white">
+            <p className="text-xs sm:text-sm">LA SULTANA - Marrakech</p>
+          </div>
+        <div className="card-body bg-opacity-100 bg-[#6D3D90] px-8 md:px-36 py-16"
+          style={{
+            backgroundImage: `url(${process.env.PUBLIC_URL}/img/Groupedemasques5.png)`,
+          }}
+        >
+          <div className="bg-opacity-90 bg-[#6D3D90] "></div>
+
+          <h2 className="card-title font-300 text-white mb-6 text-xl md:text-5xl text-start">GET STARTED TODAY  AND
+            OWN THE FUTURE. ​</h2>
+          <div className="card-actions justify-start">
+            <button className="relative inline-flex items-center text-white border border-white md:py-4 px-4 py-2 sm:px-6 font-700 uppercase hover:bg-white hover:text-purple-900  transition duration-300">
+              <span className="absolute left-[-42px] w-14 h-[2px] bg-white transition-all duration-300 group-hover:w-12"></span>
+              LEARN MORE
+            </button>
+          </div>
+        </div>
+      </div>
 
 
     </div>
