@@ -13,7 +13,7 @@ function Footer() {
         <a href="#news">News</a>
       </div>
 
-      <div className="divider" ></div>
+      <div className="dividerf" ></div>
 
       <div className="footer-bottom">
         <div className="footer-left">
