@@ -16,7 +16,7 @@ function Advantage() {
         </ul>
       </div>
 
-      <section className="content-section md:items-center md:justify-center">
+      <section className="content-section md:items-center md:justify-center md:mr-14">
         <div className="flex flex-col lg:flex-row md:items-center md:justify-center">
           <div className="lg:w-full lg:mb-0 lg:pr-12 px-6 md:px-12 lg:px-16 xl:px-32 py-8 lg:py-16">
             <h1 className="text-2xl md:text-3xl lg:text-5xl font-600 mb-6 lg:mb-10 text-start" style={{ color: '#281A2A' }}>
