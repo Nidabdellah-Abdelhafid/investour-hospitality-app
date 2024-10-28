@@ -1,9 +1,20 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ScrollToTopButton from './ScrollToTopButton'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Developement
   () {
   const [activeTab, setActiveTab] = useState('contractType');
+  
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Set the animation duration in milliseconds
+      once: false,    // Set to false to allow animations on each scroll
+      mirror: true,   // Enable animations on scroll up as well
+    });
+    AOS.refresh(); // Refresh AOS to detect elements on load
+  }, []);
 
   return (
     <div className='m-14 py-8'>
@@ -237,7 +248,7 @@ function Developement
         </div>
       </section>
 
-      <section className="content-section mt-16">
+      <section className="content-section mt-16" data-aos="fade-left">
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
@@ -257,7 +268,7 @@ function Developement
         </div>
       </section>
 
-      <section className="content-section mt-16">
+      <section className="content-section mt-16" data-aos="fade-right">
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Image Section */}
           <div className="md:w-full ">
@@ -277,7 +288,7 @@ function Developement
         </div>
       </section>
 
-      <section className="content-section mt-16">
+      <section className="content-section mt-16" data-aos="fade-left">
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
@@ -299,7 +310,7 @@ function Developement
         </div>
       </section>
 
-      <section className="content-section mt-16">
+      <section className="content-section mt-16" data-aos="fade-right">
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Image Section */}
           <div className="md:w-full ">
@@ -322,7 +333,7 @@ function Developement
         </div>
       </section>
 
-      <section className="content-section mt-16">
+      <section className="content-section mt-16" data-aos="fade-left">
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
@@ -343,7 +354,7 @@ function Developement
         </div>
       </section>
 
-      <section className="content-section mt-16 md:mt-36">
+      <section className="content-section mt-16 md:mt-36" >
         <div className="flex flex-col md:flex-row items-center w-full px-16 md:px-36">
         <div className="md:w-full md:text-left">
             <h2 className="text-[#281A2A] text-sm text-2xl font-500 mb-4">Build Your Vision With Our 30+ Recognized And Trusted Brands</h2>

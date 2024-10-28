@@ -1,11 +1,22 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ScrollToTopButton from './ScrollToTopButton'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Advantage() {
   const [selectedSection, setSelectedSection] = useState(null);
-
   const handleMouseEnter = (section) => setSelectedSection(section);
   const handleMouseLeave = () => setSelectedSection(null);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Set the animation duration in milliseconds
+      once: false,    // Set to false to allow animations on each scroll
+      mirror: true,   // Enable animations on scroll up as well
+    });
+    AOS.refresh(); // Refresh AOS to detect elements on load
+  }, []);
+
   return (
     <div className='m-14 py-8'>
 
@@ -295,7 +306,7 @@ relationships and in-depth market knowledge" transform="translate(1222.06 961.92
 
       </section>
 
-      <section className="content-section mt-16">
+      <section className="content-section mt-16" data-aos="fade-left">
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
@@ -317,7 +328,7 @@ relationships and in-depth market knowledge" transform="translate(1222.06 961.92
         </div>
       </section>
 
-      <section className="content-section mt-16">
+      <section className="content-section mt-16" data-aos="fade-right">
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Image Section */}
           <div className="md:w-full ">
@@ -339,7 +350,7 @@ relationships and in-depth market knowledge" transform="translate(1222.06 961.92
         </div>
       </section>
 
-      <section className="content-section mt-16">
+      <section className="content-section mt-16" data-aos="fade-left">
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
@@ -364,7 +375,7 @@ relationships and in-depth market knowledge" transform="translate(1222.06 961.92
         </div>
       </section>
 
-      <section className="content-section mt-16">
+      <section className="content-section mt-16" data-aos="fade-right">
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Image Section */}
           <div className="md:w-full ">
@@ -386,7 +397,7 @@ relationships and in-depth market knowledge" transform="translate(1222.06 961.92
         </div>
       </section>
 
-      <section className="content-section mt-16">
+      <section className="content-section mt-16" data-aos="fade-left">
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
