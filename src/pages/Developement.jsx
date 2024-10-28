@@ -64,7 +64,7 @@ function Developement
       </div>
 
       {/* Tab Content */}
-      <div className="p-4 bg-gray-100">
+      <div className="p-4 bg-[#ECF1F5] mt-4">
         {activeTab === 'contractType' && (
           <div>
             <h2 className="text-center font-semibold uppercase mb-4">Contract Type</h2>
