@@ -354,11 +354,11 @@ function Developement
         </div>
       </section>
 
-      <section className="content-section mt-16 md:mt-36" >
+      <section className="content-section mt-16 md:mt-36 items-center justify-center" >
         <div className="flex flex-col md:flex-row items-center w-full px-16 md:px-36">
         <div className="md:w-full md:text-left">
-            <h2 className="text-[#281A2A] text-sm text-2xl font-500 mb-4">Build Your Vision With Our 30+ Recognized And Trusted Brands</h2>
-            <div className="flex justify-start px-36 py-5 mt-6">
+            <h2 className="text-[#281A2A] text-sm text-xl md:text-4xl font-500 mb-4">Build Your Vision With Our 30+ Recognized And Trusted Brands</h2>
+            <div className="flex justify-center px-36 py-5 mt-6">
               <button className="relative inline-flex items-center px-16 py-4 border-2 border-gray-800  font-600 uppercase hover:bg-[#6D3D90] hover:text-white transition duration-300">
                 <span className="absolute left-[-42px] w-14 h-[2px] bg-gray-800 transition-all duration-300 group-hover:w-12"></span>
                 let’s get started
