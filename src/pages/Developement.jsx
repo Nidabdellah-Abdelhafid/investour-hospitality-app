@@ -45,144 +45,182 @@ function Developement
 
           {/* Image Section */}
           <div className="md:w-full">
-      {/* Tab Buttons */}
-      <div className="flex text-white text-sm font-semibold">
-        <button
-          className={`w-1/2 py-4 text-center ${activeTab === 'contractType' ? 'bg-[#0A1D5A]' : 'bg-[#374D93]'}`}
-          onClick={() => setActiveTab('contractType')}
-        >
-          <div className='md:text-xl'>CONTRACT TYPE</div>
-          <div className="text-xs mt-1">Franchise Operations, Managed by Investor</div>
-        </button>
-        <button
-          className={`w-1/2 py-4 text-center ${activeTab === 'market' ? 'bg-[#0A1D5A]' : 'bg-[#374D93]'}`}
-          onClick={() => setActiveTab('market')}
-        >
-          <div className='md:text-xl'>MARKET</div>
-          <div className="text-xs mt-1">Urban, Suburban & Resort</div>
-        </button>
-      </div>
+            {/* Tab Buttons */}
+            <div className="flex text-white text-sm font-semibold">
+              <button
+                className={`w-1/2 py-4 text-center ${activeTab === 'contractType' ? 'bg-[#0A1D5A]' : 'bg-[#374D93]'}`}
+                onClick={() => setActiveTab('contractType')}
+              >
+                <div className='md:text-xl'>CONTRACT TYPE</div>
+                <div className="text-xs mt-1">Franchise Operations, Managed by Investor</div>
+              </button>
+              <button
+                className={`w-1/2 py-4 text-center ${activeTab === 'market' ? 'bg-[#0A1D5A]' : 'bg-[#374D93]'}`}
+                onClick={() => setActiveTab('market')}
+              >
+                <div className='md:text-xl'>MARKET</div>
+                <div className="text-xs mt-1">Urban, Suburban & Resort</div>
+              </button>
+            </div>
 
-      {/* Tab Content */}
-      <div className="p-4 bg-[#ECF1F5] mt-4">
-        {activeTab === 'contractType' && (
-          <div>
-            <h2 className="text-center font-semibold uppercase mb-4">Contract Type</h2>
-            <div className="grid grid-cols-5 gap-4">
+            {/* Tab Content */}
+            <div className="p-4 bg-[#ECF1F5] mt-4">
+              {activeTab === 'contractType' && (
+                <div>
+                  <h2 className="text-center font-semibold uppercase mb-4">Contract Type</h2>
+                  <div className="grid grid-cols-5 gap-4">
 
 
-                  <div key={0} className="card  flex flex-col items-center">
-                    <img
-                      src={`${process.env.PUBLIC_URL}/img/Groupe de masques 20.png`}
-                      alt="new build"
-                      className="w-full" />
-                    <div className="items-center">
-                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">new build</h2>
+                    <div key={0} className="card  flex flex-col items-center">
+                      <img
+                        src={`${process.env.PUBLIC_URL}/img/Groupe de masques 20.png`}
+                        alt="new build"
+                        className="w-full" />
+                      <div className="items-center">
+                        <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">new build</h2>
+                      </div>
                     </div>
-                  </div>
-                  <div key={1} className="card flex flex-col items-center">
-                    <img
-                      src={`${process.env.PUBLIC_URL}/img/Groupe de masques 21.png`}
-                      alt="new build"
-                      className="w-full" />
-                    <div className="items-center">
-                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">DUAI-BRANDED</h2>
+                    <div key={1} className="card flex flex-col items-center">
+                      <img
+                        src={`${process.env.PUBLIC_URL}/img/Groupe de masques 21.png`}
+                        alt="new build"
+                        className="w-full" />
+                      <div className="items-center">
+                        <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">DUAI-BRANDED</h2>
+                      </div>
                     </div>
-                  </div>
-                  <div key={2} className="card flex flex-col items-center">
-                    <img
-                      src={`${process.env.PUBLIC_URL}/img/Groupe de masques 22.png`}
-                      alt="new build"
-                      className="w-full" />
-                    <div className="items-center">
-                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">modular
-                        development</h2>
+                    <div key={2} className="card flex flex-col items-center">
+                      <img
+                        src={`${process.env.PUBLIC_URL}/img/Groupe de masques 22.png`}
+                        alt="new build"
+                        className="w-full" />
+                      <div className="items-center">
+                        <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">modular
+                          development</h2>
+                      </div>
                     </div>
-                  </div>
-                  <div key={3} className="card  flex flex-col items-center">
-                    <img
-                      src={`${process.env.PUBLIC_URL}/img/Groupe de masques 23.png`}
-                      alt="new build"
-                      className="w-full" />
-                    <div className="items-center">
-                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">Mixed use</h2>
+                    <div key={3} className="card  flex flex-col items-center">
+                      <img
+                        src={`${process.env.PUBLIC_URL}/img/Groupe de masques 23.png`}
+                        alt="new build"
+                        className="w-full" />
+                      <div className="items-center">
+                        <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">Mixed use</h2>
+                      </div>
                     </div>
-                  </div>
-                  <div key={4} className="card flex flex-col items-center">
-                    <img
-                      src={`${process.env.PUBLIC_URL}/img/Groupe de masques 24.png`}
-                      alt="new build"
-                      className="w-full" />
-                    <div className="items-center">
-                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">ALL-inclusive</h2>
+                    <div key={4} className="card flex flex-col items-center">
+                      <img
+                        src={`${process.env.PUBLIC_URL}/img/Groupe de masques 24.png`}
+                        alt="new build"
+                        className="w-full" />
+                      <div className="items-center">
+                        <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">ALL-inclusive</h2>
+                      </div>
                     </div>
                   </div>
                 </div>
-          </div>
-        )}
-        {activeTab === 'market' && (
-          <div>
-            <h2 className="text-center font-semibold uppercase mb-4">Market</h2>
-            <div className="grid grid-cols-5 gap-4">
+              )}
+              {activeTab === 'market' && (
+                <div>
+                  <h2 className="text-center font-semibold uppercase mb-4">Market</h2>
+                  <div className="grid grid-cols-5 gap-4">
 
 
-                  <div key={5} className="card  flex flex-col items-center">
-                    <img
-                      src={`${process.env.PUBLIC_URL}/img/Groupe de masques 20.png`}
-                      alt="new build"
-                      className="w-full" />
-                    <div className="items-center">
-                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">new build</h2>
+                    <div key={5} className="card  flex flex-col items-center">
+                      <img
+                        src={`${process.env.PUBLIC_URL}/img/Groupe de masques 20.png`}
+                        alt="new build"
+                        className="w-full" />
+                      <div className="items-center">
+                        <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">new build</h2>
+                      </div>
                     </div>
-                  </div>
-                  <div key={6} className="card flex flex-col items-center">
-                    <img
-                      src={`${process.env.PUBLIC_URL}/img/Groupe de masques 21.png`}
-                      alt="new build"
-                      className="w-full" />
-                    <div className="items-center">
-                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">DUAI-BRANDED</h2>
+                    <div key={6} className="card flex flex-col items-center">
+                      <img
+                        src={`${process.env.PUBLIC_URL}/img/Groupe de masques 21.png`}
+                        alt="new build"
+                        className="w-full" />
+                      <div className="items-center">
+                        <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">DUAI-BRANDED</h2>
+                      </div>
                     </div>
-                  </div>
-                  <div key={7} className="card flex flex-col items-center">
-                    <img
-                      src={`${process.env.PUBLIC_URL}/img/Groupe de masques 22.png`}
-                      alt="new build"
-                      className="w-full" />
-                    <div className="items-center">
-                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">modular
-                        development</h2>
+                    <div key={7} className="card flex flex-col items-center">
+                      <img
+                        src={`${process.env.PUBLIC_URL}/img/Groupe de masques 22.png`}
+                        alt="new build"
+                        className="w-full" />
+                      <div className="items-center">
+                        <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">modular
+                          development</h2>
+                      </div>
                     </div>
-                  </div>
-                  <div key={8} className="card  flex flex-col items-center">
-                    <img
-                      src={`${process.env.PUBLIC_URL}/img/Groupe de masques 23.png`}
-                      alt="new build"
-                      className="w-full" />
-                    <div className="items-center">
-                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">Mixed use</h2>
+                    <div key={8} className="card  flex flex-col items-center">
+                      <img
+                        src={`${process.env.PUBLIC_URL}/img/Groupe de masques 23.png`}
+                        alt="new build"
+                        className="w-full" />
+                      <div className="items-center">
+                        <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">Mixed use</h2>
+                      </div>
                     </div>
-                  </div>
-                  <div key={9} className="card flex flex-col items-center">
-                    <img
-                      src={`${process.env.PUBLIC_URL}/img/Groupe de masques 24.png`}
-                      alt="new build"
-                      className="w-full" />
-                    <div className="items-center">
-                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">ALL-inclusive</h2>
+                    <div key={9} className="card flex flex-col items-center">
+                      <img
+                        src={`${process.env.PUBLIC_URL}/img/Groupe de masques 24.png`}
+                        alt="new build"
+                        className="w-full" />
+                      <div className="items-center">
+                        <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">ALL-inclusive</h2>
+                      </div>
                     </div>
                   </div>
                 </div>
+              )}
+            </div>
           </div>
-        )}
-      </div>
-    </div>
 
         </div>
       </section>
 
-        <div className="divider mt-16"></div>
-      
+      <div className="divider mt-16"></div>
+
+      <section className="content-section mt-8">
+        <div className="lg:w-full lg:mb-0 lg:pr-12 px-6 md:px-12 lg:px-16 xl:px-32 py-6 lg:py-6">
+          <h1 className="text-2xl md:text-3xl lg:text-5xl font-600 mb-4 lg:mb-10 text-start" style={{ color: '#281A2A' }}>
+            Hotel Development
+          </h1>
+        </div>
+        <div className="flex flex-col md:flex-row items-start w-full md:px-36">
+          {/* Text Section */}
+          <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
+            <h2 className="text-[#281A2A] text-xl font-500 mb-4">Managed by Investour</h2>
+            <p className="text-gray-700 text-xl leading-relaxed">
+              Investour Hospitality (IxH) - Investour Hospitality hotel management division - operates over 2,100 hotels globally, making us one of the most experienced hotel management companies in the world.
+            </p>
+            <p className="text-gray-700 text-xl leading-relaxed mt-4">
+              IxH provides turnkey management services and has more than 65 years of operational expertise to maximize financial performance. With a deep bench of talent, we ensure the highest standards are delivered at every touchpoint for a superior brand experience. The IxH approach makes it easy to quickly and seamlessly plug into our systems and sales channels, drive revenue, and gain efficiencies, all while focusing on ownership’s goals.</p>
+
+            <div className="flex justify-start px-12 py-5 mt-6">
+              <button className="relative inline-flex items-center px-8 py-4 border-2 border-gray-800  font-600 uppercase hover:bg-[#6D3D90] hover:text-white transition duration-300">
+                <span className="absolute left-[-42px] w-14 h-[2px] bg-gray-800 transition-all duration-300 group-hover:w-12"></span>
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          {/* Image Section */}
+          <div className="md:w-full md:text-left">
+            <h2 className="text-[#281A2A] text-xl font-500 mb-4">Franchise Operations</h2>
+            <p className="text-gray-700 text-xl leading-relaxed">
+              Our franchise teams work with leading management companies and owners to provide comprehensive training, tools, and resources to help ensure each hotel’s success. In addition to access to Marriott’s diverse brand offerings and strong global base of loyal guests, franchise partners can take advantage of our powerful global sales and marketing systems and our cutting-edge resources and programs designed to consistently drive strong results.</p>
+            <div className="flex justify-start px-12 py-5 mt-6">
+              <button className="relative inline-flex items-center px-10 py-4 border-2 border-gray-800  font-600 uppercase hover:bg-[#6D3D90] hover:text-white transition duration-300">
+                <span className="absolute left-[-42px] w-14 h-[2px] bg-gray-800 transition-all duration-300 group-hover:w-12"></span>
+                new to franchising?
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
       <ScrollToTopButton />
     </div>
   )
