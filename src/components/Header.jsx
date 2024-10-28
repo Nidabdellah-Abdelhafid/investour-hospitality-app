@@ -19,6 +19,12 @@ function Header() {
       setScrolled(false);
     }
   };
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
 
   const closeMenu = () => {
     setMenuOpen(false); // Closes the menu
@@ -37,7 +43,7 @@ function Header() {
   return (
     <header className={`header ${isHomePage && !scrolled ? '' : 'scrolled'}`}>
       <div className="header-left">
-        <Link to="/" onClick={closeMenu}>
+        <Link to="/" onClick={()=>{closeMenu();scrollToTop()}}>
       <h1 className="logo">
         <svg xmlns="http://www.w3.org/2000/svg" width="151.246" height="53.98" viewBox="0 0 151.246 53.98">
             <g id="Investour_Hospitality" data-name="Investour Hospitality" transform="translate(-89.53 -158.65)">
@@ -69,12 +75,12 @@ function Header() {
       </div>
       
       <nav className={`header-nav ${menuOpen ? 'open' : ''}`}>
-        <Link to="/advantage" onClick={closeMenu}><p>INVESTOUR HOSPITALITY ADVANTAGE</p></Link>
-        <Link to="/developement" onClick={closeMenu}><p>INVESTOUR HOSPITALITY DEVELOPMENT</p></Link>
-        <Link to="/brands" onClick={closeMenu}><p>BRANDS</p></Link>
-        <Link to="/work" onClick={closeMenu}><p>HOW WE WORK TOGETHER</p></Link>
+        <Link to="/advantage" onClick={()=>{closeMenu();scrollToTop()}}><p>INVESTOUR HOSPITALITY ADVANTAGE</p></Link>
+        <Link to="/developement" onClick={()=>{closeMenu();scrollToTop()}}><p>INVESTOUR HOSPITALITY DEVELOPMENT</p></Link>
+        <Link to="/brands" onClick={()=>{closeMenu();scrollToTop()}}><p>BRANDS</p></Link>
+        <Link to="/work" onClick={()=>{closeMenu();scrollToTop()}}><p>HOW WE WORK TOGETHER</p></Link>
         <div className="header-right">
-          <a href="#contact" className="contact-button" onClick={closeMenu}>
+          <a href="#contact" className="contact-button" onClick={()=>{closeMenu();scrollToTop()}}>
             <span className="phone-icon"><FaPhoneAlt /></span> CONTACT US
           </a>
         </div>
