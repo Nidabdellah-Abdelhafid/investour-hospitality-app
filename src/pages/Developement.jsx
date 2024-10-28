@@ -221,6 +221,128 @@ function Developement
           </div>
         </div>
       </section>
+
+      <div className="divider mt-16"></div>
+      <section className="content-section md:items-center md:justify-center md:mr-14">
+        <div className="flex flex-col lg:flex-row md:items-center md:justify-center">
+          <div className="lg:w-full lg:mb-0 lg:pr-12 px-6 md:px-12 lg:px-16 xl:px-32 py-8 lg:py-16">
+            <h1 className="text-2xl md:text-3xl lg:text-5xl font-600 mb-6 lg:mb-10 text-start" style={{ color: '#281A2A' }}>
+              Hotel Development
+            </h1>
+            <div className="flex my-2">
+              <p className="text-base md:text-2lg lg:text-lg mb-6 font-500 text-start ml-6 lg:ml-10 my-2 mx-2 lg:mx-4" style={{ color: '#281A2A' }}>
+                Investour Hospitality properties are compelling additions to any market. We offer owner-friendly and flexible building options based on your project, budget, and location, including prototypical new build hotels, adaptive re-use projects, or the conversion of an existing hotel. </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="content-section mt-16">
+        <div className="flex flex-col md:flex-row items-center w-full md:px-36">
+          {/* Text Section */}
+          <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
+            <h2 className="text-[#281A2A] text-5xl font-semibold mb-8">Conversions</h2>
+            <p className="text-gray-700 text-2xl leading-relaxed">
+              Transform your property with our innovative brands, targeted for today’s savvy travelers. Marriott streamlines the conversion process, giving properties a fresh new identity and appeal in the shortest time possible. Experience the benefits of plugging into our powerful global infrastructure to drive bookings and operational efficiencies on Day 1. No other conversion opportunity delivers the strength of Marriott Bonvoy and its active and growing membership base.</p>
+          </div>
+
+          {/* Image Section */}
+          <div className="md:w-full ">
+            <img
+              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 25.png`}// Replace with the actual image URL
+              alt="Loyalty Program Room"
+              className="md:h-auto w-full"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="content-section mt-16">
+        <div className="flex flex-col md:flex-row items-center w-full md:px-36">
+          {/* Image Section */}
+          <div className="md:w-full ">
+            <img
+              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 26.png`}// Replace with the actual image URL
+              alt="Loyalty Program Room"
+              className="md:h-auto w-full"
+            />
+          </div>
+
+          {/* Text Section */}
+          <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:ml-16">
+            <h2 className="text-[#281A2A] text-5xl font-semibold mb-8">Adaptive Reuse</h2>
+            <p className="text-gray-700 text-2xl leading-relaxed">
+              Revitalize a building with noteworthy architecture and site superiority. Adaptive re-use preserves the rich integrity of a structure while infusing it with a bold new identity. For many developers, adaptive re-use offers the best of all worlds: reinvigorating prime urban and resort locations with hotels that stand out with one-of-a-kind appeal.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="content-section mt-16">
+        <div className="flex flex-col md:flex-row items-center w-full md:px-36">
+          {/* Text Section */}
+          <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
+            <h2 className="text-[#281A2A] text-5xl font-semibold mb-8">New Builds</h2>
+            <p className="text-gray-700 text-2xl leading-relaxed">
+              Create a property that is uniquely yours from the ground up. Marriott offers both prototypical and custom opportunities depending on brand and market, built to achieve your goals with the unique expertise of Marriott’s award-winning Global Design team.</p>
+
+
+          </div>
+
+          {/* Image Section */}
+          <div className="md:w-full ">
+            <img
+              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 27.png`}// Replace with the actual image URL
+              alt="Loyalty Program Room"
+              className="md:h-auto w-full"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="content-section mt-16">
+        <div className="flex flex-col md:flex-row items-center w-full md:px-36">
+          {/* Image Section */}
+          <div className="md:w-full ">
+            <img
+              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 28.png`}// Replace with the actual image URL
+              alt="Loyalty Program Room"
+              className="md:h-auto w-full"
+            />
+          </div>
+
+          {/* Text Section */}
+          <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:ml-16">
+            <h2 className="text-[#281A2A] text-5xl font-semibold mb-8">Mixed Use
+              / Residential
+              Development</h2>
+            <p className="text-gray-700 text-2xl leading-relaxed">
+              Marriott is an industry leader in branding and operating mixed-use residential projects. Our residential team has the experience and strategic knowledge to help developers successfully market and operate branded residential products across the globe. Learn more about Marriott branded residences and explore the depth and breadth of Marriott’s residential portfolio.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="content-section mt-16">
+        <div className="flex flex-col md:flex-row items-center w-full md:px-36">
+          {/* Text Section */}
+          <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
+            <h2 className="text-[#281A2A] text-5xl font-semibold mb-8">All-Inclusive</h2>
+            <p className="text-gray-700 text-2xl leading-relaxed">
+              Marriott is shaking up All-Inclusive! We’re bringing our trusted brands, loyal guests, and operational expertise to the All-Inclusive segment. Offering natural platforms to create relevant experiences for today’s discerning all-inclusive guest, Marriott’s eight distinct branding options for families and adults provide unparalleled guest experience across a diverse range of options. Learn more about our brand offerings.
+            </p>
+          </div>
+
+          {/* Image Section */}
+          <div className="md:w-full ">
+            <img
+              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 29.png`}// Replace with the actual image URL
+              alt="Loyalty Program Room"
+              className="md:h-auto w-full"
+            />
+          </div>
+        </div>
+      </section>
+
       <ScrollToTopButton />
     </div>
   )
