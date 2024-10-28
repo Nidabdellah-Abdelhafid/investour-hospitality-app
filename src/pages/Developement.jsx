@@ -6,10 +6,10 @@ import 'aos/dist/aos.css';
 function Developement
   () {
   const [activeTab, setActiveTab] = useState('contractType');
-  
+
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Set the animation duration in milliseconds
+      duration: 2000, // Set the animation duration in milliseconds
       once: false,    // Set to false to allow animations on each scroll
       mirror: true,   // Enable animations on scroll up as well
     });
