@@ -16,16 +16,16 @@ function Advantage() {
         </ul>
       </div>
 
-      <section className="content-section">
-        <div className="flex flex-col lg:flex-row">
-          <div className="lg:w-full mb-8 lg:mb-0 lg:pr-12 px-6 md:px-12 lg:px-16 xl:px-32 py-8 lg:py-16">
+      <section className="content-section md:items-center md:justify-center">
+        <div className="flex flex-col lg:flex-row md:items-center md:justify-center">
+          <div className="lg:w-full lg:mb-0 lg:pr-12 px-6 md:px-12 lg:px-16 xl:px-32 py-8 lg:py-16">
             <h1 className="text-2xl md:text-3xl lg:text-5xl font-600 mb-6 lg:mb-10 text-start" style={{ color: '#281A2A' }}>
               The Power Of<br />
               Investour Hospitality
             </h1>
             <div className="flex my-2">
-              <div className="w-1 h-[210px] lg:h-24" style={{ backgroundColor: '#281A2A' }}></div>
-              <p className="text-base w-[670px] md:text-2lg lg:text-lg mb-6 font-500 text-start ml-6 lg:ml-10 my-2 mx-2 lg:mx-4" style={{ color: '#281A2A' }}>
+              <div className="w-1 h-[210px] lg:h-20" style={{ backgroundColor: '#281A2A' }}></div>
+              <p className="text-base md:text-2lg lg:text-lg mb-6 font-500 text-start ml-6 lg:ml-10 my-2 mx-2 lg:mx-4" style={{ color: '#281A2A' }}>
                 Investour Hospitality succeeds when you do. Our team looks forward to working with you to understand your hotel development goals, offer our hospitality expertise and support your business objectives to achieve long-term success.
               </p>
             </div>
