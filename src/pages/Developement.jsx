@@ -33,7 +33,7 @@ function Developement
 
 
 
-      <section className="content-section mt-16">
+      <section className="content-section md:mt-10">
         <div className="flex flex-col md:flex-row items-start w-full md:px-36">
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
@@ -51,14 +51,14 @@ function Developement
           className={`w-1/2 py-4 text-center ${activeTab === 'contractType' ? 'bg-[#0A1D5A]' : 'bg-[#374D93]'}`}
           onClick={() => setActiveTab('contractType')}
         >
-          <div>CONTRACT TYPE</div>
+          <div className='md:text-xl'>CONTRACT TYPE</div>
           <div className="text-xs mt-1">Franchise Operations, Managed by Investor</div>
         </button>
         <button
           className={`w-1/2 py-4 text-center ${activeTab === 'market' ? 'bg-[#0A1D5A]' : 'bg-[#374D93]'}`}
           onClick={() => setActiveTab('market')}
         >
-          <div>MARKET</div>
+          <div className='md:text-xl'>MARKET</div>
           <div className="text-xs mt-1">Urban, Suburban & Resort</div>
         </button>
       </div>
@@ -77,7 +77,7 @@ function Developement
                       alt="new build"
                       className="w-full" />
                     <div className="items-center">
-                      <h2 className=" text-center justify-center uppercase">new build</h2>
+                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">new build</h2>
                     </div>
                   </div>
                   <div key={1} className="card flex flex-col items-center">
@@ -86,7 +86,7 @@ function Developement
                       alt="new build"
                       className="w-full" />
                     <div className="items-center">
-                      <h2 className=" text-center justify-center uppercase">DUAI-BRANDED</h2>
+                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">DUAI-BRANDED</h2>
                     </div>
                   </div>
                   <div key={2} className="card flex flex-col items-center">
@@ -95,7 +95,7 @@ function Developement
                       alt="new build"
                       className="w-full" />
                     <div className="items-center">
-                      <h2 className=" text-center justify-center uppercase">modular
+                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">modular
                         development</h2>
                     </div>
                   </div>
@@ -105,7 +105,7 @@ function Developement
                       alt="new build"
                       className="w-full" />
                     <div className="items-center">
-                      <h2 className=" text-center justify-center uppercase">Mixed use</h2>
+                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">Mixed use</h2>
                     </div>
                   </div>
                   <div key={4} className="card flex flex-col items-center">
@@ -114,7 +114,7 @@ function Developement
                       alt="new build"
                       className="w-full" />
                     <div className="items-center">
-                      <h2 className=" text-center justify-center uppercase">ALL-inclusive</h2>
+                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">ALL-inclusive</h2>
                     </div>
                   </div>
                 </div>
@@ -132,7 +132,7 @@ function Developement
                       alt="new build"
                       className="w-full" />
                     <div className="items-center">
-                      <h2 className=" text-center justify-center uppercase">new build</h2>
+                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">new build</h2>
                     </div>
                   </div>
                   <div key={6} className="card flex flex-col items-center">
@@ -141,7 +141,7 @@ function Developement
                       alt="new build"
                       className="w-full" />
                     <div className="items-center">
-                      <h2 className=" text-center justify-center uppercase">DUAI-BRANDED</h2>
+                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">DUAI-BRANDED</h2>
                     </div>
                   </div>
                   <div key={7} className="card flex flex-col items-center">
@@ -150,7 +150,7 @@ function Developement
                       alt="new build"
                       className="w-full" />
                     <div className="items-center">
-                      <h2 className=" text-center justify-center uppercase">modular
+                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">modular
                         development</h2>
                     </div>
                   </div>
@@ -160,7 +160,7 @@ function Developement
                       alt="new build"
                       className="w-full" />
                     <div className="items-center">
-                      <h2 className=" text-center justify-center uppercase">Mixed use</h2>
+                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">Mixed use</h2>
                     </div>
                   </div>
                   <div key={9} className="card flex flex-col items-center">
@@ -169,7 +169,7 @@ function Developement
                       alt="new build"
                       className="w-full" />
                     <div className="items-center">
-                      <h2 className=" text-center justify-center uppercase">ALL-inclusive</h2>
+                      <h2 className="text-[10px] md:text-sm mt-2 text-center justify-center uppercase">ALL-inclusive</h2>
                     </div>
                   </div>
                 </div>
@@ -181,6 +181,7 @@ function Developement
         </div>
       </section>
 
+        <div className="divider mt-16"></div>
       
       <ScrollToTopButton />
     </div>

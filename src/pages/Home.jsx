@@ -486,20 +486,18 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex w-full flex-col  mb-6 md:mb-20 ">
-        <div className="divider"></div>
-      </div>
+      <div className="divider m-14 py-8"></div>
 
       <div className="rounded-none card lg:card-side px-8 md:px-36 mb-[-25px] md:mb-[-30px]">
         <figure>
           <img
             src={`${process.env.PUBLIC_URL}/img/Groupe de masques 6.png`}
             alt="Album" />
-          
+
         </figure>
         <div className="absolute top-[370px] md:top-[300px] left-12 md:left-40 text-white">
-            <p className="text-xs sm:text-sm">LA SULTANA - Marrakech</p>
-          </div>
+          <p className="text-xs sm:text-sm">LA SULTANA - Marrakech</p>
+        </div>
         <div className="card-body bg-opacity-100 bg-[#6D3D90] px-8 md:px-36 py-16"
           style={{
             backgroundImage: `url(${process.env.PUBLIC_URL}/img/Groupedemasques5.png)`,
