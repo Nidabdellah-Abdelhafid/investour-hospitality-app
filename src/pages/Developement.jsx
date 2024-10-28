@@ -1,15 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ScrollToTopButton from './ScrollToTopButton'
 
 function Developement
   () {
-  const contractTypes = [
-    { label: 'NEW BUILD', imgSrc: 'path_to_image_1.jpg' },
-    { label: 'DUAL-BRANDED', imgSrc: 'path_to_image_2.jpg' },
-    { label: 'MODULAR DEVELOPMENT', imgSrc: 'path_to_image_3.jpg' },
-    { label: 'MIXED USE', imgSrc: 'path_to_image_4.jpg' },
-    { label: 'ALL INCLUSIVE', imgSrc: 'path_to_image_5.jpg' },
-  ];
+  const [activeTab, setActiveTab] = useState('contractType');
 
   return (
     <div className='m-14 py-8'>
@@ -43,21 +37,38 @@ function Developement
         <div className="flex flex-col md:flex-row items-start w-full md:px-36">
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
-            <h2 className="text-[#281A2A] text-6xl md:text-5xl font-600 mb-8">
+            <h2 className="text-[#281A2A] text-3xl md:text-6xl font-600 mb-8">
               Solutions For Every
               Owner,  Everywhere
             </h2>
           </div>
 
           {/* Image Section */}
-          <div className="md:w-full ">
-            <div role="tablist" className="tabs ">
-              <input type="radio" name="my_tabs_1" role="tab" className="tab " aria-label="CONTRACT TYPE" defaultChecked />
-              <div role="tabpanel" className="tab-content px-2 py-4 bg-[#ECF1F5]">
-                <div className="flex justify-center mb-4">
-                  <div className="font-600 uppercase">CONTRACT TYPE</div>
-                </div>
-                <div className="grid grid-cols-5 gap-4">
+          <div className="md:w-full">
+      {/* Tab Buttons */}
+      <div className="flex text-white text-sm font-semibold">
+        <button
+          className={`w-1/2 py-4 text-center ${activeTab === 'contractType' ? 'bg-[#0A1D5A]' : 'bg-[#374D93]'}`}
+          onClick={() => setActiveTab('contractType')}
+        >
+          <div>CONTRACT TYPE</div>
+          <div className="text-xs mt-1">Franchise Operations, Managed by Investor</div>
+        </button>
+        <button
+          className={`w-1/2 py-4 text-center ${activeTab === 'market' ? 'bg-[#0A1D5A]' : 'bg-[#374D93]'}`}
+          onClick={() => setActiveTab('market')}
+        >
+          <div>MARKET</div>
+          <div className="text-xs mt-1">Urban, Suburban & Resort</div>
+        </button>
+      </div>
+
+      {/* Tab Content */}
+      <div className="p-4 bg-gray-100">
+        {activeTab === 'contractType' && (
+          <div>
+            <h2 className="text-center font-semibold uppercase mb-4">Contract Type</h2>
+            <div className="grid grid-cols-5 gap-4">
 
 
                   <div key={0} className="card  flex flex-col items-center">
@@ -85,7 +96,7 @@ function Developement
                       className="w-full" />
                     <div className="items-center">
                       <h2 className=" text-center justify-center uppercase">modular
-                      development</h2>
+                        development</h2>
                     </div>
                   </div>
                   <div key={3} className="card  flex flex-col items-center">
@@ -107,19 +118,12 @@ function Developement
                     </div>
                   </div>
                 </div>
-              </div>
-              <input
-                type="radio"
-                name="my_tabs_1"
-                role="tab"
-                className="tab "
-                aria-label="MARKET"
-              />
-              <div role="tabpanel" className="tab-content px-2 py-4 bg-[#ECF1F5]">
-              <div className="flex justify-center mb-4">
-                  <div className="font-600 uppercase">MARKET</div>
-                </div>
-                <div className="grid grid-cols-5 gap-4">
+          </div>
+        )}
+        {activeTab === 'market' && (
+          <div>
+            <h2 className="text-center font-semibold uppercase mb-4">Market</h2>
+            <div className="grid grid-cols-5 gap-4">
 
 
                   <div key={5} className="card  flex flex-col items-center">
@@ -147,7 +151,7 @@ function Developement
                       className="w-full" />
                     <div className="items-center">
                       <h2 className=" text-center justify-center uppercase">modular
-                      development</h2>
+                        development</h2>
                     </div>
                   </div>
                   <div key={8} className="card  flex flex-col items-center">
@@ -169,13 +173,15 @@ function Developement
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
           </div>
+        )}
+      </div>
+    </div>
+
         </div>
       </section>
 
-
+      
       <ScrollToTopButton />
     </div>
   )
