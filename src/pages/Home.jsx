@@ -395,7 +395,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='flex flex-col md:flex-row items-center px-14 mb-16'>
+        <div className='flex flex-col md:flex-row items-center justify-center mb-16'>
           <div className="flex items-center justify-around w-full max-w-5xl md:mt-8 py-6 md:py-0 gap-5">
             <div className="text-center">
               <h3 className="text-xl md:text-6xl font-semibold text-purple-700">10</h3>
