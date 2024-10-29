@@ -19,10 +19,10 @@ function Developement
   return (
     <div className='m-14 py-8'>
 
-      <div className="breadcrumbs text-sm px-6 md:px-36">
+      <div className="breadcrumbs text-sm md:px-36">
         <ul>
           <li><a>Home</a></li>
-          <li><a >Investour Hospitality Development</a></li>
+          <li><a className='text-[12px]'>Investour Hospitality Development</a></li>
         </ul>
       </div>
 
