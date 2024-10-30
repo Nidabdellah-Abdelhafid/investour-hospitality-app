@@ -249,8 +249,8 @@ function Brands() {
             </div>
           </div>
           {/* Second Row - Two Centered Responsive Images */}
-          <div className="flex justify-center mt-6 flex-wrap">
-            <div className="relative w-full max-w-xs md:mx-2 group flex-1 min-w-[200px]">
+          <div className="flex md:justify-center mt-6 flex-wrap">
+            <div className="relative w-full max-w-xl md:mx-2 group flex-1 min-w-[200px]">
               <img src={`${process.env.PUBLIC_URL}/img/Groupe de masques 12.png`} alt="Brand 5" className="w-full h-auto" />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div>
@@ -260,7 +260,7 @@ function Brands() {
                 </div>
               </div>
             </div>
-            <div className="relative w-full max-w-xs mt-6 md:mt-0 md:mx-2 group flex-1 min-w-[200px]">
+            <div className="relative w-full max-w-xl mt-6 md:mt-0 md:mx-2 group flex-1 min-w-[200px]">
               <img src={`${process.env.PUBLIC_URL}/img/Groupe de masques 13.png`} alt="Brand 6" className="w-full h-auto" />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div>

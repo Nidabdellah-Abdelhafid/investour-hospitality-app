@@ -18,34 +18,35 @@ function Advantage() {
   }, []);
 
   return (
-    <div className='m-14 py-8'>
+    <div className='m-0 p-0'>
 
-      <div className="breadcrumbs text-sm px-6 md:px-36">
-        <ul>
-          <li><a>Home</a></li>
-          <li><a >How we work Avontage</a></li>
-        </ul>
+      <div className='m-10 pt-2'>
+
+      </div>
+      <div className='mb-2 ml-10'>
+        <div className="breadcrumbs text-sm md:px-36">
+          <ul>
+            <li><a>Home</a></li>
+            <li><a className='text-[12px]'>How we work Avontage</a></li>
+          </ul>
+        </div>
       </div>
 
-      <section className="content-section md:items-center md:justify-center md:mr-14">
-        <div className="flex flex-col lg:flex-row md:items-center md:justify-center">
-          <div className="lg:w-full lg:mb-0 lg:pr-12 px-6 md:px-12 lg:px-16 xl:px-32 py-8 lg:py-16">
+      <section className="content-section md:items-center md:justify-center md:px-12 py-4 mx-10 md:mx-16">
             <h1 className="text-2xl md:text-3xl lg:text-5xl font-600 mb-6 lg:mb-10 text-start" style={{ color: '#281A2A' }}>
               The Power Of<br />
               Investour Hospitality
             </h1>
             <div className="flex my-2">
-              <div className="w-1 h-[210px] lg:h-20" style={{ backgroundColor: '#281A2A' }}></div>
-              <p className="text-base md:text-2lg lg:text-lg mb-6 font-500 text-start ml-6 lg:ml-10 my-2 mx-2 lg:mx-4" style={{ color: '#281A2A' }}>
+              <div className="w-1 h-[185px] lg:h-20" style={{ backgroundColor: '#281A2A' }}></div>
+              <p className="text-base md:text-2lg lg:text-lg mb-6 font-500 text-start ml-6 lg:ml-10 my-2 lg:mx-4" style={{ color: '#281A2A' }}>
                 Investour Hospitality succeeds when you do. Our team looks forward to working with you to understand your hotel development goals, offer our hospitality expertise and support your business objectives to achieve long-term success.
               </p>
             </div>
-          </div>
-        </div>
       </section>
 
       <section className="content-section">
-        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 1358.54 954.51" className="transition-all duration-300 transform hover:scale-105 md:max-h-96">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1358.54 954.51" className="transition-all duration-300 transform hover:scale-105 max-h-[600px] md:max-h-[600px]">
           <g id="The_Power_Of_Investour" data-name="The Power Of Investour" transform="translate(-282.72 -56.41)">
             <g id="Calque_1"
 
@@ -306,7 +307,7 @@ relationships and in-depth market knowledge" transform="translate(1222.06 961.92
 
       </section>
 
-      <section className="content-section mt-16" data-aos="fade-left">
+      <section className="content-section mx-10 mt-16" data-aos="fade-left">
         <div className="flex flex-col md:flex-row items-center justify-center w-full md:px-36">
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
@@ -328,7 +329,7 @@ relationships and in-depth market knowledge" transform="translate(1222.06 961.92
         </div>
       </section>
 
-      <section className="content-section mt-16" data-aos="fade-right">
+      <section className="content-section mx-10 mt-16" data-aos="fade-right">
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Image Section */}
           <div className="md:w-full ">
@@ -350,7 +351,7 @@ relationships and in-depth market knowledge" transform="translate(1222.06 961.92
         </div>
       </section>
 
-      <section className="content-section mt-16" data-aos="fade-left">
+      <section className="content-section mx-10 mt-16" data-aos="fade-left">
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
@@ -375,7 +376,7 @@ relationships and in-depth market knowledge" transform="translate(1222.06 961.92
         </div>
       </section>
 
-      <section className="content-section mt-16" data-aos="fade-right">
+      <section className="content-section mx-10 mt-16" data-aos="fade-right">
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Image Section */}
           <div className="md:w-full ">
@@ -397,7 +398,7 @@ relationships and in-depth market knowledge" transform="translate(1222.06 961.92
         </div>
       </section>
 
-      <section className="content-section mt-16" data-aos="fade-left">
+      <section className="content-section mx-10 mt-16 mb-16" data-aos="fade-left">
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
