@@ -11,7 +11,7 @@ import Work from './pages/Work';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App bg-white text-black" style={{ backgroundColor: 'white', color: 'black' }}>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
