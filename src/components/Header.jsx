@@ -80,7 +80,7 @@ function Header() {
         
         <div className="dropdown dropdown-hover">
           <div tabIndex={0} role="button" className=""><p>BRANDS</p></div>
-          <ul tabIndex={0} className="dropdown-content menu bg-[#6D3D90] rounded-box z-[1] w-40 p-2 shadow">
+          <ul tabIndex={0} className="dropdown-content menu bg-[#6D3D90] rounded-box z-[1] w-40 p-2 shadow justify-center ml-28 mt-2">
             <li>
             <Link to="/brands" onClick={() => { closeMenu(); scrollToTop() }}>
             Luxury
@@ -91,7 +91,7 @@ function Header() {
         </div>
         <Link to="/work" onClick={() => { closeMenu(); scrollToTop() }}><p>HOW WE WORK TOGETHER</p></Link>
         <div className="header-right">
-          <a href="#contact" className="contact-button" onClick={() => { closeMenu(); scrollToTop() }}>
+          <a href="#contact" className="contact-button justify-center items-center text-center" onClick={() => { closeMenu(); scrollToTop() }}>
             <span className="phone-icon"><FaPhoneAlt /></span> CONTACT US
           </a>
         </div>
