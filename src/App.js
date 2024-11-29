@@ -7,6 +7,7 @@ import Advantage from './pages/Advantage';
 import Developement from './pages/Developement';
 import Brands from './pages/Brands';
 import Work from './pages/Work';
+import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/developement" element={<Developement />} />
           <Route path="/brands" element={<Brands />} />
           <Route path="/work" element={<Work />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footer />
       </div>
