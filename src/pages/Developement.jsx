@@ -18,7 +18,7 @@ function Developement
 
   return (
     <div>
-      <div className='m-10 pt-2'></div>
+      <div className='m-14 pt-2 md:m-10'></div>
       <div className='mb-2 ml-10'>
         <div className="breadcrumbs text-sm md:px-36">
           <ul>
