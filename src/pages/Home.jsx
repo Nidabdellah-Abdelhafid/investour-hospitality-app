@@ -192,17 +192,17 @@ const Home = () => {
         {/* Text Section */}
         <div className="lg:w-1/2 mb-8 lg:mb-0 lg:pr-12 px-6 md:px-12 lg:px-16 xl:px-32 py-8 lg:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-semibold mb-6 lg:mb-10 text-start" style={{ color: '#281A2A' }}>
-            Developing the Future Together
+            Investour Hospitality – L’Excellence Hôtelière
           </h1>
           <div className="flex my-2">
             <div className="w-2 h-[146px] lg:h-29" style={{ backgroundColor: '#281A2A' }}></div>
             <p className="text-base md:text-lg lg:text-lg mb-6 font-medium text-start ml-6 lg:ml-10 my-2 mx-2 lg:mx-4" style={{ color: '#281A2A' }}>
-              Investour Hospitality succeeds when you do. Our team looks forward to working with you to understand your hotel development goals, offer our hospitality expertise, and support your business objectives to achieve long-term success.
+            Investour Hospitality, filiale hôtelière d’Investour Group, conçoit, gère et développe des hôtels et resorts d’exception. En combinant l’hospitalité marocaine avec des standards internationaux, nous créons des expériences uniques, rentables et innovantes.
             </p>
           </div>
 
           <p className="text-sm md:text-base text-gray-600 mb-14 my-5 lg:mb-10 text-start">
-            Investour Hospitality is the world’s largest travel company, offering unmatched choice for guests and driving unrivaled value for owners. With our expansive portfolio of brands, dynamic sales and marketing platform, and the world’s most admired guest loyalty program, we focus on driving long-term profitable partnerships with owners. It’s never been easier for owners to tap into the power of the world’s leading hospitality company.
+          Grâce à une gestion rigoureuse, nous optimisons la rentabilité, appliquons des stratégies avancées de revenue management et assurons la valorisation durable des actifs hôteliers.
           </p>
           <div className="flex justify-start px-12 py-5">
             <button className="relative inline-flex items-center px-8 py-4 border-2 border-gray-800 text-gray-800 font-bold uppercase hover:bg-[#6D3D90] hover:text-white transition duration-300">
@@ -270,34 +270,24 @@ const Home = () => {
                   Casablanca
                 </h3>
                 <div className="border-b border-[#6D3D90]"></div>
-                <p className={`text-purple-500 text-end ${selectedRegion === 'Casablanca' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>4 Properties</p>
-              </div>
-              <div>
-                <h3 className={`text-lg  text-purple-700 text-start ${selectedRegion === 'Rabat-Salé-Zemmour-Zaër' ? 'font-bold' : 'font-900'} `}>Rabat</h3>
-                <div className="border-b border-[#6D3D90]"></div>
-                <p className={`text-purple-500 text-end ${selectedRegion === 'Rabat-Salé-Zemmour-Zaër' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>2 Properties</p>
+                <p className={`text-purple-500 text-end ${selectedRegion === 'Casablanca' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>Siège du groupe</p>
               </div>
               <div>
                 <h3 className={`text-lg  text-purple-700 text-start ${selectedRegion === 'Marrakech-Tensift-Al Haouz' ? 'font-bold' : 'font-900'} `}>
                   Marrakech
                 </h3>
                 <div className="border-b border-[#6D3D90]"></div>
-                <p className={`text-purple-500 text-end ${selectedRegion === 'Marrakech-Tensift-Al Haouz' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>6 Properties</p>
+                <p className={`text-purple-500 text-end ${selectedRegion === 'Marrakech-Tensift-Al Haouz' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>Hôtels & Palmiya Fun & Waterland</p>
               </div>
               <div>
                 <h3 className={`text-lg  text-purple-700 text-start ${selectedRegion === 'Souss-Massa' ? 'font-bold' : 'font-900'} `}>Agadir</h3>
                 <div className="border-b border-[#6D3D90]"></div>
-                <p className={`text-purple-500 text-end ${selectedRegion === 'Souss-Massa' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>4 Properties</p>
+                <p className={`text-purple-500 text-end ${selectedRegion === 'Souss-Massa' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>Jardins d’Agadir Club & Resort</p>
               </div>
               <div>
-                <h3 className={`text-lg  text-purple-700 text-start ${selectedRegion === 'Tanger-Tétouan' ? 'font-bold' : 'font-900'} `}>Tanger</h3>
+                <h3 className={`text-lg  text-purple-700 text-start ${selectedRegion === 'Gharb-Chrarda-Beni Hssen' ? 'font-bold' : 'font-900'} `}>Lixus</h3>
                 <div className="border-b border-[#6D3D90]"></div>
-                <p className={`text-purple-500 text-end ${selectedRegion === 'Tanger-Tétouan' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>3 Properties</p>
-              </div>
-              <div>
-                <h3 className={`text-lg  text-purple-700 text-start ${selectedRegion === 'Fès-Boulemane' ? 'font-bold' : 'font-900'} `}>Fes</h3>
-                <div className="border-b border-[#6D3D90]"></div>
-                <p className={`text-purple-500 text-end ${selectedRegion === 'Fès-Boulemane' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>2 Properties</p>
+                <p className={`text-purple-500 text-end ${selectedRegion === 'Gharb-Chrarda-Beni Hssen' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>Lixus Beach Resort</p>
               </div>
             </div>
           </div>
@@ -396,22 +386,26 @@ const Home = () => {
         </div>
 
         <div className='flex flex-col md:flex-row items-center justify-center px-10 mb-16'>
-          <div className="flex items-center justify-around w-full max-w-5xl md:mt-8 py-6 md:py-0 gap-5">
+          <div className="flex items-center justify-around w-full max-w-5xl md:mt-8 py-6 md:py-0 gap-6">
             <div className="text-center">
-              <h3 className="text-xl md:text-6xl font-semibold text-purple-700">10</h3>
-              <p className="text-[#6D3D90] text-sm md:text-xl">Brands</p>
+              <h3 className="text-xl md:text-xl font-semibold text-purple-700">4</h3>
+              <p className="text-[#6D3D90] text-sm md:text-xl">hôtels & resorts</p>
             </div>
             <div className="text-center">
-              <h3 className="text-xl md:text-6xl font-semibold text-purple-700">210<sup>+</sup></h3>
-              <p className="text-[#6D3D90] text-sm md:text-xl">Million Loyalty Members</p>
+              <h3 className="text-xl md:text-xl font-semibold text-purple-700">180 000<sup>+</sup></h3>
+              <p className="text-[#6D3D90] text-sm md:text-xl"><br/>clients/an</p>
             </div>
             <div className="text-center">
-              <h3 className="text-xl md:text-6xl font-semibold text-purple-700">21<sup>+</sup></h3>
-              <p className="text-[#6D3D90] text-sm md:text-xl">Properties</p>
+              <h3 className="text-xl md:text-xl font-semibold text-purple-700">10<sup>+</sup></h3>
+              <p className="text-[#6D3D90] text-sm md:text-xl">hôtels en développement</p>
             </div>
             <div className="text-center">
-              <h3 className="text-xl md:text-6xl font-semibold text-purple-700">6<sup>+</sup></h3>
-              <p className="text-[#6D3D90] text-sm md:text-xl">Cities and regions</p>
+              <h3 className="text-xl md:text-xl font-semibold text-purple-700">2</h3>
+              <p className="text-[#6D3D90] text-sm md:text-xl"> nouvelles marques : hôtels urbains haut de gamme & boutique riads</p>
+            </div>
+            <div className="text-center">
+              <h3 className="text-xl md:text-xl font-semibold text-purple-700">1</h3>
+              <p className="text-[#6D3D90] text-sm md:text-xl">Valeria Hotels & Resorts, leader de l’All-Inclusive au Maroc</p>
             </div>
           </div>
 
@@ -506,7 +500,7 @@ const Home = () => {
           <div className="bg-opacity-90 bg-[#6D3D90] "></div>
 
           <h2 className="card-title font-300 text-white mb-6 text-6sm md:text-5xl text-start">
-            GET STARTED TODAY  AND OWN THE FUTURE.
+          Investour Hospitality, l’hôtellerie réinventée entre tradition et innovation.
           </h2>
           <div className="card-actions justify-center md:justify-start  px-4 md:px-2">
             <button className="relative inline-flex items-center text-white border border-white md:py-4 px-4 py-2 sm:px-6 font-700 uppercase hover:bg-white hover:text-purple-900  transition duration-300">

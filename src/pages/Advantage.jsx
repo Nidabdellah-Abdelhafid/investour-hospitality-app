@@ -271,10 +271,9 @@ function Advantage() {
         <div className="flex flex-col md:flex-row items-center justify-center w-full md:px-36">
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
-            <h2 className="text-[#281A2A] text-3xl md:text-5xl font-semibold mb-8">Loyalty</h2>
+            <h2 className="text-[#281A2A] text-3xl md:text-5xl font-semibold mb-8">Revenue Management</h2>
             <p className="text-gray-700 text-2sm md:text-2xl leading-relaxed">
-              Investour Hospitality is the world’s largest travel loyalty program with over 173 million members and growing.
-              Our innovative loyalty programming drives awareness and high engagement with half of total sold room nights from members. These guests stay more, spend more, and cost less because they book through our lowest cost channels.
+            Stratégies de tarification avancées, gestion optimisée des stocks et prévision de la demande pour maximiser les revenus hôteliers.
             </p>
           </div>
 
@@ -302,11 +301,10 @@ function Advantage() {
 
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:ml-16">
-            <h2 className="text-[#281A2A] text-3xl md:text-5xl font-semibold mb-8">Sales</h2>
+            <h2 className="text-[#281A2A] text-3xl md:text-5xl font-semibold mb-8">Digital</h2>
             <p className="text-gray-700 text-2sm md:text-2xl leading-relaxed">
-            We strategically target guests from global, regional, and local markets across all business segments. Our expert sales teams provide B2B customers streamlined solutions, leveraging our scale, distribution channels, 
-            and personalized service to meet their needs. Our total account management strategy gives clients and meeting planners a single point of contact, building long-standing trust and success.
-              </p>
+            Sites web et applications mobiles performants, permettant aux clients de réserver au meilleur tarif, réduisant ainsi les coûts d’acquisition.
+            </p>
           </div>
         </div>
       </section>
@@ -315,13 +313,12 @@ function Advantage() {
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
-            <h2 className="text-[#281A2A] text-3xl md:text-5xl font-semibold mb-8">Global Distribution
-            Strategy</h2>
+            <h2 className="text-[#281A2A] text-3xl md:text-5xl font-semibold mb-8">Sales</h2>
             <p className="text-gray-700 text-2sm md:text-2xl leading-relaxed">
-            Marriott’s global distribution platform is designed to optimize occupancy at a lower cost from every corner of the globe. 
-             Our world class website and multilingual call centers ensure 24/7 guest access, while our mobile, search and online channels place our properties at guests’ fingertips, and make it easy for them to book direct. 
-              </p>
-            <p className="text-gray-700 text-2sm md:text-xl leading-relaxed mt-4">+ Read More</p>
+            Un réseau de vente mondial, régional et local pour optimiser le remplissage des hôtels grâce à une stratégie commerciale multicanale.
+            
+           </p>
+            
 
           </div>
 
@@ -349,12 +346,11 @@ function Advantage() {
 
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:ml-16">
-            <h2 className="text-[#281A2A] text-3xl md:text-5xl font-semibold mb-8">Revenue
-            Management</h2>
+            <h2 className="text-[#281A2A] text-3xl md:text-5xl font-semibold mb-8">Loyalty</h2>
             <p className="text-gray-700 text-2sm md:text-2xl leading-relaxed">
-            Our revenue management team leverages sophisticated systems to execute on pricing and inventory management strategies 
-            that align with our demand forecasting tools to enhance Marriott’s competitiveness, increase market share and maximize hotel revenue.</p>
-          </div>
+            Une plateforme de fidélisation hôtelière de premier plan qui booste la rétention client. Nos membres séjournent plus souvent, dépensent davantage et réservent via nos canaux directs.
+            </p>
+           </div>
         </div>
       </section>
 
@@ -362,17 +358,109 @@ function Advantage() {
         <div className="flex flex-col md:flex-row items-center w-full md:px-36">
           {/* Text Section */}
           <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
-            <h2 className="text-[#281A2A] text-3xl md:text-5xl font-semibold mb-8">Cost Savings</h2>
+            <h2 className="text-[#281A2A] text-3xl md:text-5xl font-semibold mb-8">Reservations</h2>
             <p className="text-gray-700 text-2sm md:text-2xl leading-relaxed">
-            Our size and scale allow us to share costs and leverage market efficiencies through shared services, 
-            strong negotiated rates with intermediary partners and favorable credit card interchange rates.</p>
-            <p className="text-gray-700 text-2sm md:text-xl leading-relaxed mt-4">+ Read More</p>
+            Plateforme intégrée combinant Revenue Management, eCommerce, PMS et GDS, garantissant une gestion optimisée des réservations et une distribution performante.
+            </p>
+            
           </div>
 
           {/* Image Section */}
           <div className="md:w-full ">
             <img
               src={`${process.env.PUBLIC_URL}/img/Groupe de masques 19.png`}// Replace with the actual image URL
+              alt="Loyalty Program Room"
+              className="md:h-auto w-full"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="content-section mx-10 mt-16" data-aos="fade-right">
+        <div className="flex flex-col md:flex-row items-center w-full md:px-36">
+          {/* Image Section */}
+          <div className="md:w-full ">
+            <img
+              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 16.png`}// Replace with the actual image URL
+              alt="Loyalty Program Room"
+              className="md:h-auto w-full"
+            />
+          </div>
+
+          {/* Text Section */}
+          <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:ml-16">
+            <h2 className="text-[#281A2A] text-3xl md:text-5xl font-semibold mb-8">Intermediary Contracts</h2>
+            <p className="text-gray-700 text-2sm md:text-2xl leading-relaxed">
+            Des conditions avantageuses avec les intermédiaires et distributeurs, maximisant la rentabilité des établissements.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="content-section mx-10 mt-16" data-aos="fade-left">
+        <div className="flex flex-col md:flex-row items-center w-full md:px-36">
+          {/* Text Section */}
+          <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
+            <h2 className="text-[#281A2A] text-3xl md:text-5xl font-semibold mb-8">
+            Credit Card Rates
+            </h2>
+            <p className="text-gray-700 text-2sm md:text-2xl leading-relaxed">
+            Accords bancaires stratégiques offrant des taux d’interchange préférentiels, réduisant ainsi les frais transactionnels.
+            </p>
+            
+
+          </div>
+
+          {/* Image Section */}
+          <div className="md:w-full ">
+            <img
+              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 17.png`}// Replace with the actual image URL
+              alt="Loyalty Program Room"
+              className="md:h-auto w-full"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="content-section mx-10 mt-16" data-aos="fade-right">
+        <div className="flex flex-col md:flex-row items-center w-full md:px-36">
+          {/* Image Section */}
+          <div className="md:w-full ">
+            <img
+              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 18.png`}// Replace with the actual image URL
+              alt="Loyalty Program Room"
+              className="md:h-auto w-full"
+            />
+          </div>
+
+          {/* Text Section */}
+          <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:ml-16">
+            <h2 className="text-[#281A2A] text-3xl md:text-5xl font-semibold mb-8">OTA Business Terms</h2>
+            <p className="text-gray-700 text-2sm md:text-2xl leading-relaxed">
+            Des partenariats stratégiques avec Expedia, Priceline, TripAdvisor et autres OTA, assurant une visibilité maximale et une croissance continue des revenus.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="content-section mx-10 my-16" data-aos="fade-left">
+        <div className="flex flex-col md:flex-row items-center w-full md:px-36">
+          {/* Text Section */}
+          <div className="md:w-full text-center md:text-left mb-8 md:mb-0 md:mr-16">
+            <h2 className="text-[#281A2A] text-3xl md:text-5xl font-semibold mb-8">
+            Shared Services
+            </h2>
+            <p className="text-gray-700 text-2sm md:text-2xl leading-relaxed">
+            Mutualisation des services et réduction des coûts opérationnels, améliorant l’efficacité et la rentabilité hôtelière.
+            </p>
+            
+
+          </div>
+
+          {/* Image Section */}
+          <div className="md:w-full ">
+            <img
+              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 17.png`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />

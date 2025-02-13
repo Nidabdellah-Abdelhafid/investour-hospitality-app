@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import ScrollToTopButton from './ScrollToTopButton'
 import { IoCaretForwardCircleOutline, IoChevronBackOutline, IoChevronForward, IoPauseCircleOutline } from 'react-icons/io5'
 
-function Brands() {
+function BrandsVHR() {
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
@@ -40,7 +40,7 @@ function Brands() {
           <ul>
             <li><a>Home</a></li>
             <li><a className='text-[12px]'>Brands</a></li>
-            <li><a className='text-[12px]'>Valeria Collection</a></li>
+            <li><a className='text-[12px]'>Valeria Hotels & Resorts</a></li>
           </ul>
         </div>
       </div>
@@ -57,7 +57,7 @@ function Brands() {
 
           {/* Text Section (Centered on Mobile) */}
           <div className="absolute bottom-14 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:top-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
-            <h1 className="text-xl sm:text-2xl md:text-6xl font-700"> Valeria Collection – L’Art de l’Hospitalité All-Inclusive</h1>
+            <h1 className="text-xl sm:text-2xl md:text-6xl font-700">Luxury</h1>
           </div>
 
           <div className="absolute bottom-1 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
@@ -328,4 +328,4 @@ function Brands() {
   )
 }
 
-export default Brands
+export default BrandsVHR
