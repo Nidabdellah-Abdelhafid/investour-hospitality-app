@@ -56,18 +56,18 @@ function Brands() {
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
 
           {/* Text Section (Centered on Mobile) */}
-          <div className="absolute bottom-14 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:top-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
+          <div className="absolute bottom-24 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:top-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
             <h1 className="text-xl sm:text-xl md:text-4xl font-700">Valeria Collection – L’Art de l’Hospitalité All-Inclusive</h1>
           </div>
 
-          <div className="absolute bottom-1 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
+          <div className="absolute bottom-6 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
             <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p>
           </div>
 
 
 
           {/* Carousel Controls Section */}
-          <div className="absolute bottom-5 sm:bottom-36 left-1/2 transform -translate-x-1/2 md:bottom-10 md:right-36 md:translate-x-1/2 text-white z-10 flex flex-col items-center  space-y-2">
+          <div className="absolute bottom-12 sm:bottom-36 left-1/2 transform -translate-x-1/2 md:bottom-10 md:right-36 md:translate-x-1/2 text-white z-10 flex flex-col items-center  space-y-2">
             <div className="flex space-x-2">
               <a
                 href="#slide3"
@@ -98,18 +98,18 @@ function Brands() {
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
 
           {/* Text Section (Centered on Mobile) */}
-          <div className="absolute bottom-14 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:top-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
+          <div className="absolute bottom-24 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:top-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
           <h1 className="text-xl sm:text-xl md:text-4xl font-700">Valeria Collection – L’Art de l’Hospitalité All-Inclusive</h1>
           </div>
 
-          <div className="absolute bottom-1 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
+          <div className="absolute bottom-6 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
             <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p>
           </div>
 
 
 
           {/* Carousel Controls Section */}
-          <div className="absolute bottom-5 sm:bottom-36 left-1/2 transform -translate-x-1/2 md:bottom-10 md:right-36 md:translate-x-1/2 text-white z-10 flex flex-col items-center  space-y-2">
+          <div className="absolute bottom-12 sm:bottom-36 left-1/2 transform -translate-x-1/2 md:bottom-10 md:right-36 md:translate-x-1/2 text-white z-10 flex flex-col items-center  space-y-2">
             <div className="flex space-x-2">
               <a
                 href="#slide1"
@@ -140,18 +140,18 @@ function Brands() {
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
 
           {/* Text Section (Centered on Mobile) */}
-          <div className="absolute bottom-14 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:top-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
+          <div className="absolute bottom-24 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:top-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
           <h1 className="text-xl sm:text-xl md:text-4xl font-700">Valeria Collection – L’Art de l’Hospitalité All-Inclusive</h1>
           </div>
 
-          <div className="absolute bottom-1 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
+          <div className="absolute bottom-6 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
             <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p>
           </div>
 
 
 
           {/* Carousel Controls Section */}
-          <div className="absolute bottom-5 sm:bottom-36 left-1/2 transform -translate-x-1/2 md:bottom-10 md:right-36 md:translate-x-1/2 text-white z-10 flex flex-col items-center  space-y-2">
+          <div className="absolute bottom-12 sm:bottom-36 left-1/2 transform -translate-x-1/2 md:bottom-10 md:right-36 md:translate-x-1/2 text-white z-10 flex flex-col items-center  space-y-2">
             <div className="flex space-x-2">
               <a
                 href="#slide2"
