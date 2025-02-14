@@ -197,7 +197,7 @@ function Brands() {
         <section className="content-section items-center justify-center" >
           <div className="flex flex-col md:flex-row items-center justify-center w-full px-16 md:px-36">
             <div className="md:w-full  items-center justify-center">
-              <h2 className="text-[#281A2A] text-xl md:text-6xl md:font-500 font-700"> Valeria Collection, une signature d’exception pour un séjour All-Inclusive inoubliable.</h2>
+              <h2 className="text-[#281A2A] text-xl md:text-5xl md:font-500 font-700"> Valeria Collection, une signature d’exception pour un séjour All-Inclusive inoubliable.</h2>
               <div className="flex justify-center py-2 md:py-5">
                 <p className='md:text-2xl font-300 text-sm'>
                   Visit Our Brand Sites to Learn More
