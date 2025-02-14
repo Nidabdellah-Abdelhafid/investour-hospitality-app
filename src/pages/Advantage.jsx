@@ -50,7 +50,8 @@ function Advantage() {
           
       >
         <div className="w-full max-w-5xl lg:max-w-6xl xl:max-w-7xl h-auto relative">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
+          <svg xmlns="http://www.w3.org/2000/svg" 
+          xmlnsXlink="http://www.w3.org/1999/xlink" 
           // width="1529.001" height="956.379" viewBox="0 0 1529.001 956.379"
           className="w-full h-auto"
           viewBox="0 0 1529.001 956.379"

@@ -255,7 +255,7 @@ const Home = () => {
 
 
       {/* Content Section map */}
-      <div className='mb-8 md:mb-8'>
+      <div className='mb-0 md:mb-8'>
         <h1 className="text-2xl md:text-5xl font-500 mb-2 md:mb-12">A Country of Opportunities</h1>
         <div
           className="flex flex-col lg:flex-row justify-between items-start"
@@ -385,27 +385,27 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='flex flex-col md:flex-row items-center justify-center px-10 mb-16'>
-          <div className="flex items-center justify-around w-full max-w-5xl md:mt-8 py-6 md:py-0 gap-6">
+        <div className='flex flex-col md:flex-row items-center justify-between px-10 mb-16'>
+          <div className="flex items-center justify-around w-full max-w-5xl md:mt-8 mb-10 md:mb-0 md:py-0 gap-6 flex-col md:flex-row">
             <div className="text-center">
-              <h3 className="text-xl md:text-xl font-semibold text-purple-700">4</h3>
-              <p className="text-[#6D3D90] text-sm md:text-xl">hôtels & resorts</p>
+              <h3 className="text-2xl md:text-xl font-semibold text-purple-700">4</h3>
+              <p className="text-[#6D3D90] text-4sm md:text-xl">hôtels & resorts</p>
             </div>
             <div className="text-center">
-              <h3 className="text-xl md:text-xl font-semibold text-purple-700">180 000<sup>+</sup></h3>
-              <p className="text-[#6D3D90] text-sm md:text-xl"><br/>clients/an</p>
+              <h3 className="text-2xl md:text-xl font-semibold text-purple-700">180 000<sup>+</sup></h3>
+              <p className="text-[#6D3D90] text-4sm md:text-xl"><br/>clients/an</p>
             </div>
             <div className="text-center">
-              <h3 className="text-xl md:text-xl font-semibold text-purple-700">10<sup>+</sup></h3>
-              <p className="text-[#6D3D90] text-sm md:text-xl">hôtels en développement</p>
+              <h3 className="text-2xl md:text-xl font-semibold text-purple-700">10<sup>+</sup></h3>
+              <p className="text-[#6D3D90] text-4sm md:text-xl">hôtels en développement</p>
             </div>
             <div className="text-center">
-              <h3 className="text-xl md:text-xl font-semibold text-purple-700">2</h3>
-              <p className="text-[#6D3D90] text-sm md:text-xl"> nouvelles marques : hôtels urbains haut de gamme & boutique riads</p>
+              <h3 className="text-2xl md:text-xl font-semibold text-purple-700">2</h3>
+              <p className="text-[#6D3D90] text-4sm md:text-xl"> nouvelles marques : hôtels urbains haut de gamme & boutique riads</p>
             </div>
             <div className="text-center">
-              <h3 className="text-xl md:text-xl font-semibold text-purple-700">1</h3>
-              <p className="text-[#6D3D90] text-sm md:text-xl">Valeria Hotels & Resorts, leader de l’All-Inclusive au Maroc</p>
+              <h3 className="text-2xl md:text-xl font-semibold text-purple-700">1</h3>
+              <p className="text-[#6D3D90] text-4sm md:text-xl">Valeria Hotels & Resorts, leader de l’All-Inclusive au Maroc</p>
             </div>
           </div>
 
@@ -486,10 +486,12 @@ const Home = () => {
         <figure>
           <img
             src={`${process.env.PUBLIC_URL}/img/Groupe de masques 6.png`}
-            alt="Album" />
+            alt="Album"
+            className='w-full h-full'
+            />
 
         </figure>
-        <div className="absolute top-[370px] md:top-[300px] left-12 md:left-40 text-white">
+        <div className="absolute top-[330px] md:top-[270px] left-12 md:left-40 text-white">
           <p className="text-xs sm:text-sm">LA SULTANA - Marrakech</p>
         </div>
         <div className="card-body bg-opacity-100 bg-[#6D3D90] px-8 md:px-36 py-16"
@@ -499,7 +501,7 @@ const Home = () => {
         >
           <div className="bg-opacity-90 bg-[#6D3D90] "></div>
 
-          <h2 className="card-title font-300 text-white mb-6 text-6sm md:text-5xl text-start">
+          <h2 className="card-title font-300 text-white mb-6 text-6sm md:text-4xl text-start">
           Investour Hospitality, l’hôtellerie réinventée entre tradition et innovation.
           </h2>
           <div className="card-actions justify-center md:justify-start  px-4 md:px-2">
