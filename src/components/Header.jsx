@@ -77,7 +77,7 @@ function Header() {
 
       <nav className={`header-nav ${menuOpen ? 'open' : ''}`}>
         <Link to="/advantage" onClick={() => { closeMenu(); scrollToTop() }}><p>INVESTOUR HOSPITALITY ADVANTAGE</p></Link>
-        <Link to="/developement" onClick={() => { closeMenu(); scrollToTop() }}><p>INVESTOUR HOSPITALITY DEVELOPMENT</p></Link>
+        {/* <Link to="/developement" onClick={() => { closeMenu(); scrollToTop() }}><p>INVESTOUR HOSPITALITY DEVELOPMENT</p></Link> */}
         
         <div className="dropdown dropdown-hover">
           <div tabIndex={0} role="button" className=""><p>BRANDS</p></div>
