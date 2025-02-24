@@ -202,12 +202,12 @@ const Home = () => {
           <p className="text-sm md:text-base text-gray-600 mb-14 my-5 lg:mb-10 text-start">
           Grâce à une gestion rigoureuse, nous optimisons la rentabilité, appliquons des stratégies avancées de revenue management et assurons la valorisation durable des actifs hôteliers.
           </p>
-          <div className="flex justify-start px-12 py-5">
+          {/* <div className="flex justify-start px-12 py-5">
             <button className="relative inline-flex items-center px-8 py-4 border-2 border-gray-800 text-gray-800 font-bold uppercase hover:bg-[#6D3D90] hover:text-white transition duration-300">
               <span className="absolute left-[-42px] w-14 h-[2px] bg-gray-800 transition-all duration-300 group-hover:w-12"></span>
               Learn More
             </button>
-          </div>
+          </div> */}
 
         </div>
 
