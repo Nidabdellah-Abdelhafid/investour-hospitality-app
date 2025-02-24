@@ -27,7 +27,7 @@ function Footer() {
           
           <div className='copyright-side'>
             <p className="copyright">
-            Copyright © 1924 - 2025 Investour Hospitality, Inc. All Rights Reserved
+            Copyright © 2025 Investour Hospitality, Inc. All Rights Reserved
           </p>
           <p className="powered-by">Powered by Investour</p>
           </div>

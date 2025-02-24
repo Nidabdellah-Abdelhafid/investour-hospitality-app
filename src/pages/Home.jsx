@@ -246,7 +246,7 @@ const Home = () => {
           )}
 
           {/* Caption for the Video */}
-          <p className="absolute bottom-12 left-10 lg:bottom-20 lg:left-16 text-white text-2xs lg:text-4sm">LA MAMOUNIA - Marrakesh</p>
+          {/* <p className="absolute bottom-12 left-10 lg:bottom-20 lg:left-16 text-white text-2xs lg:text-4sm">LA MAMOUNIA - Marrakesh</p> */}
         </section>
       </div>
 
@@ -490,7 +490,7 @@ const Home = () => {
 
         </figure>
         <div className="absolute top-[330px] md:top-[270px] left-12 md:left-40 text-white">
-          <p className="text-xs sm:text-sm">LA SULTANA - Marrakech</p>
+          {/* <p className="text-xs sm:text-sm">LA SULTANA - Marrakech</p> */}
         </div>
         <div className="card-body bg-opacity-100 bg-[#6D3D90] px-8 md:px-36 py-16"
           style={{
@@ -502,12 +502,12 @@ const Home = () => {
           <h2 className="card-title font-300 text-white mb-6 text-6sm md:text-4xl text-start">
           Investour Hospitality, l’hôtellerie réinventée entre tradition et innovation.
           </h2>
-          <div className="card-actions justify-center md:justify-start  px-4 md:px-2">
+          {/* <div className="card-actions justify-center md:justify-start  px-4 md:px-2">
             <button className="relative inline-flex items-center text-white border border-white md:py-4 px-4 py-2 sm:px-6 font-700 uppercase hover:bg-white hover:text-purple-900  transition duration-300">
               <span className="absolute left-[-42px] w-14 h-[2px] bg-white transition-all duration-300 group-hover:w-12"></span>
               LEARN MORE
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
 
