@@ -281,7 +281,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 15.png`}// Replace with the actual image URL
+              src={`${process.env.PUBLIC_URL}/img/hp-3.jpg`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />
@@ -294,7 +294,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 16.png`}// Replace with the actual image URL
+              src={`${process.env.PUBLIC_URL}/img/hp-5.jpg`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />
@@ -326,7 +326,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 17.png`}// Replace with the actual image URL
+              src={`${process.env.PUBLIC_URL}/img/hp-8.jpg`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />
@@ -339,7 +339,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 18.png`}// Replace with the actual image URL
+              src={`${process.env.PUBLIC_URL}/img/hp-10.jpg`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />
@@ -369,7 +369,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 19.png`}// Replace with the actual image URL
+              src={`${process.env.PUBLIC_URL}/img/hp-11.jpg`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />
@@ -382,7 +382,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 16.png`}// Replace with the actual image URL
+              src={`${process.env.PUBLIC_URL}/img/hp-12.jpg`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />
@@ -415,7 +415,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 17.png`}// Replace with the actual image URL
+              src={`${process.env.PUBLIC_URL}/img/hp-13.jpg`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />
@@ -428,7 +428,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 18.png`}// Replace with the actual image URL
+              src={`${process.env.PUBLIC_URL}/img/hp-14.jpg`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />
@@ -461,7 +461,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/Groupe de masques 17.png`}// Replace with the actual image URL
+              src={`${process.env.PUBLIC_URL}/img/hp-15.jpg`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />

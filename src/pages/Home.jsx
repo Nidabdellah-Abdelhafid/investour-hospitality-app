@@ -429,13 +429,23 @@ const Home = () => {
             <h1 className="mb-5 text-5xl font-600 text-end">Our Brands</h1>
             <div className="border-b border-2 border-white w-full mb-8"></div>
           </div>
-          <div className=" items-center justify-center hero-content w-full md:px-16">
+          <div className="justify-around hero-content  w-full md:px-16 flex flex-col md:flex-row">
 
-
+            
             <img
               alt=""
-              src={`${process.env.PUBLIC_URL}/img/Hotel-Marriott-Partner-Brand.png`}
-              className="w-full h-full md:pl-16 md:ml-36"
+              src={`${process.env.PUBLIC_URL}/img/brd-1.png`}
+              className="w-1/2 md:w-2/5 h-auto "
+            />
+            <img
+              alt=""
+              src={`${process.env.PUBLIC_URL}/img/brd-2.png`}
+              className="w-1/2 md:w-2/5 h-auto "
+            />
+            <img
+              alt=""
+              src={`${process.env.PUBLIC_URL}/img/brd-3.png`}
+              className="w-1/2 md:w-2/5 h-auto"
             />
           </div>
         </div>
