@@ -298,7 +298,7 @@ function Brands() {
               className="w-full h-auto"
               poster={`${process.env.PUBLIC_URL}/img/Groupe de masques 14.png`}
             >
-              <source src={`${process.env.PUBLIC_URL}/img/Mamounia_Marrakech.mp4`} type="video/mp4" />
+            <source src="https://s3.eu-west-1.amazonaws.com/fractalitetest/2025-02-24T13:08:55.260270708_palmiya.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
 
