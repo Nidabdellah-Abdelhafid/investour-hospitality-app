@@ -50,7 +50,7 @@ const Home = () => {
         <div id="slide1" className="carousel-item relative w-full h-screen">
           <img
             alt=""
-            src={`${process.env.PUBLIC_URL}/img/Groupe de masques 1.png`}
+            src={`${process.env.PUBLIC_URL}/img/hp-1.jpg`}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -65,7 +65,7 @@ const Home = () => {
           <div className="absolute bottom-8 sm:bottom-36 left-1/2 transform -translate-x-1/2 md:bottom-24 md:right-36 md:translate-x-1/2 text-white z-10 flex flex-col items-center  space-y-2">
             <div className="flex space-x-2">
               <a
-                href="#slide4"
+                href="#slide3"
                 className="carousel-control border border-white text-white hover:bg-gray-300 hover:text-black rounded-full p-1 md:p-2"
               >
                 <IoChevronBackOutline className="text-white hover:text-black" />
@@ -77,7 +77,7 @@ const Home = () => {
                 <IoChevronForward className="text-white hover:text-black" />
               </a>
             </div>
-            <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p>
+            {/* <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p> */}
           </div>
         </div>
 
@@ -85,7 +85,7 @@ const Home = () => {
         <div id="slide2" className="carousel-item relative w-full h-screen">
           <img
             alt=""
-            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+            src={`${process.env.PUBLIC_URL}/img/hp-2.jpg`}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -112,7 +112,7 @@ const Home = () => {
                 <IoChevronForward className="text-white hover:text-black" />
               </a>
             </div>
-            <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p>
+            {/* <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p> */}
           </div>
         </div>
 
@@ -120,7 +120,7 @@ const Home = () => {
         <div id="slide3" className="carousel-item relative w-full h-screen">
           <img
             alt=""
-            src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+            src={`${process.env.PUBLIC_URL}/img/hp-3.jpg`}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -141,18 +141,18 @@ const Home = () => {
                 <IoChevronBackOutline className="text-white hover:text-black" />
               </a>
               <a
-                href="#slide4"
+                href="#slide1"
                 className="carousel-control border border-white text-white hover:bg-gray-300 hover:text-black rounded-full p-1 md:p-2"
               >
                 <IoChevronForward className="text-white hover:text-black" />
               </a>
             </div>
-            <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p>
+            {/* <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p> */}
           </div>
         </div>
 
         {/* Fourth Slide */}
-        <div id="slide4" className="carousel-item relative w-full h-screen">
+        {/* <div id="slide4" className="carousel-item relative w-full h-screen">
           <img
             alt=""
             src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
@@ -160,13 +160,11 @@ const Home = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
 
-          {/* Text Section (Centered on Mobile) */}
           <div className="absolute bottom-24 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-20 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
             <h1 className="text-xl sm:text-2xl md:text-6xl font-700">OWN THE MOOD</h1>
             <p className="mt-2 text-xs sm:text-sm md:text-lg">More Power Today, More Value Tomorrow</p>
           </div>
 
-          {/* Carousel Controls Section */}
           <div className="absolute bottom-8 sm:bottom-36 left-1/2 transform -translate-x-1/2 md:bottom-24 md:right-36 md:translate-x-1/2 text-white z-10 flex flex-col items-center  space-y-2">
             <div className="flex space-x-2">
               <a
@@ -184,7 +182,7 @@ const Home = () => {
             </div>
             <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Content Section */}
@@ -444,6 +442,7 @@ const Home = () => {
       </div>
 
 
+      {/* 
       <div className="md:m-36 m-6">
         <div
           className="relative w-full h-[300px] md:h-[400px] lg:h-[450px] bg-cover bg-center flex justify-center items-center"
@@ -451,11 +450,10 @@ const Home = () => {
             backgroundImage: `url(${process.env.PUBLIC_URL}/img/Groupedemasques4.png)`, // Adjust to your image path
           }}
         >
-          {/* Overlay */}
+         
           <div className="absolute inset-0 bg-[#6D3D90] opacity-80"></div>
           <div className="absolute inset-2 border border-2"></div>
 
-          {/* Text Content */}
           <div className="relative text-center px-6">
             <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold mb-6 md:mb-16">
               Finding the Right Fit
@@ -473,12 +471,12 @@ const Home = () => {
             </button>
           </div>
 
-          {/* Location Info */}
           <div className="absolute bottom-3 sm:bottom-4 left-4 sm:left-4 text-white ">
             <p className="text-xs sm:text-sm">LA MAMOUNIA - Marrakesh</p>
           </div>
         </div>
-      </div>
+      </div> 
+      */}
 
       <div className="divider m-14 py-8"></div>
 

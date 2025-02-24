@@ -83,15 +83,16 @@ function Header() {
           <div tabIndex={0} role="button" className=""><p>BRANDS</p></div>
           <ul tabIndex={0} className="dropdown-content menu bg-[#6D3D90] rounded-box z-[1] w-52 p-2 shadow justify-center ml-24 md:ml-0 mt-2">
             <li>
-            <Link to="/brands" onClick={() => { closeMenu(); scrollToTop() }}>
-            Valeria Collection
-            </Link>
+              <Link to="/brandsVHR" onClick={() => { closeMenu(); scrollToTop() }}>
+              Valeria Hotels & Resorts
+              </Link>
             </li>
             <li>
-            <Link to="/brandsVHR" onClick={() => { closeMenu(); scrollToTop() }}>
-            Valeria Hotels & Resorts
-            </Link>
-              </li>
+              <Link to="/brands" onClick={() => { closeMenu(); scrollToTop() }}>
+              Valeria Collection
+              </Link>
+            </li>
+            
           </ul>
         </div>
         <Link to="/work" onClick={() => { closeMenu(); scrollToTop() }}><p>HOW WE WORK TOGETHER</p></Link>

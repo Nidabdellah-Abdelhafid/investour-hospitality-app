@@ -57,11 +57,11 @@ function Brands() {
 
           {/* Text Section (Centered on Mobile) */}
           <div className="absolute bottom-24 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:top-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
-            <h1 className="text-xl sm:text-xl md:text-4xl font-700">Valeria Collection – L’Art de l’Hospitalité All-Inclusive</h1>
+            <h1 className="text-xl sm:text-xl md:text-4xl font-700">Valeria Collection – L’Art de l’Hospitalité All-Inclusive            </h1>
           </div>
 
           <div className="absolute bottom-6 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
-            <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p>
+            {/* <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p> */}
           </div>
 
 
@@ -92,18 +92,18 @@ function Brands() {
         <div id="slide2" className="carousel-item relative w-full h-auto">
           <img
             alt=""
-            src={`${process.env.PUBLIC_URL}/img/v_c_2.JPG`}
+            src={`${process.env.PUBLIC_URL}/img/hp-2.JPG`}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
 
           {/* Text Section (Centered on Mobile) */}
           <div className="absolute bottom-24 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:top-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
-          <h1 className="text-xl sm:text-xl md:text-4xl font-700">Valeria Collection – L’Art de l’Hospitalité All-Inclusive</h1>
+          <h1 className="text-xl sm:text-xl md:text-4xl font-700">Valeria Collection – L’Art de l’Hospitalité All-Inclusive          </h1>
           </div>
 
           <div className="absolute bottom-6 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
-            <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p>
+            {/* <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p> */}
           </div>
 
 
@@ -134,18 +134,18 @@ function Brands() {
         <div id="slide3" className="carousel-item relative w-full h-auto">
           <img
             alt=""
-            src={`${process.env.PUBLIC_URL}/img/v_c_3.jpeg`}
+            src={`${process.env.PUBLIC_URL}/img/hp-4.jpg`}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
 
           {/* Text Section (Centered on Mobile) */}
           <div className="absolute bottom-24 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:top-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
-          <h1 className="text-xl sm:text-xl md:text-4xl font-700">Valeria Collection – L’Art de l’Hospitalité All-Inclusive</h1>
+          <h1 className="text-xl sm:text-xl md:text-4xl font-700">Valeria Collection – L’Art de l’Hospitalité All-Inclusive          </h1>
           </div>
 
           <div className="absolute bottom-6 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
-            <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p>
+            {/* <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p> */}
           </div>
 
 
@@ -180,12 +180,12 @@ function Brands() {
             <div className="lg:w-full lg:mb-0 lg:pr-12 px-6 md:px-12 lg:px-16 xl:px-32 py-6 lg:pt-10">
               <div className="my-2">
                 <p className="text-black md:text-2lg lg:text-lg mb-6 font-500 text-start ml-6 lg:ml-10 my-2 mx-2 lg:mx-4" style={{ color: '#281A2A' }}>
-                  Valeria Collection – L’Art de l’Hospitalité All-Inclusive
-                  Marque haut de gamme d’Investour Hospitality, Valeria Collection fusionne luxe, culture et bien-être pour une expérience immersive et raffinée.
-                  <br/>✔ Gastronomie d’exception, espaces bien-être et expériences exclusives
-                  <br/>✔ Hébergements élégants et écoresponsables, conçus pour favoriser la reconnexion et l’authenticité
-                  <br/>✔ Séjours sur-mesure, adaptés aux familles, voyageurs sophistiqués et amateurs de détente
-                 </p>
+                Marque haut de gamme d’Investour Hospitality, Valeria Collection fusionne luxe, culture et bien-être pour une expérience immersive et raffinée.
+                <br/>✔ Gastronomie d’exception, espaces bien-être et expériences exclusives
+                <br/>✔ Hébergements élégants et écoresponsables, conçus pour favoriser la reconnexion et l’authenticité
+                <br/>✔ Séjours sur-mesure, adaptés aux familles, voyageurs sophistiqués et amateurs de détente
+
+                </p>
                 {/* <p className="text-black md:text-4sm lg:text-4sm mb-6 font-500 text-start ml-6 lg:ml-10 my-2 mx-2 lg:mx-4">+ Read More</p> */}
 
               </div>
@@ -197,7 +197,7 @@ function Brands() {
         <section className="content-section items-center justify-center" >
           <div className="flex flex-col md:flex-row items-center justify-center w-full px-16 md:px-36">
             <div className="md:w-full  items-center justify-center">
-              <h2 className="text-[#281A2A] text-xl md:text-5xl md:font-500 font-700"> Valeria Collection, une signature d’exception pour un séjour All-Inclusive inoubliable.</h2>
+              <h2 className="text-[#281A2A] text-xl md:text-5xl md:font-500 font-700">Valeria Collection, une signature d’exception pour un séjour All-Inclusive inoubliable</h2>
               <div className="flex justify-center py-2 md:py-5">
                 <p className='md:text-2xl font-300 text-sm'>
                   Visit Our Brand Sites to Learn More
@@ -213,67 +213,67 @@ function Brands() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {/* First Row - Four Images */}
             <div className="relative group">
-              <img src={`${process.env.PUBLIC_URL}/img/Groupe de masques 8.png`} alt="Brand 1" className="w-full h-auto" />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <img src={`${process.env.PUBLIC_URL}/img/hp-3.jpg`} alt="Brand 1" className="w-full h-auto" />
+              {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div>
                   <h2 className="text-xl font-bold">Karlton Hotel</h2>
                   <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
                   <button className="text-white px-4 py-2">LEARN MORE</button>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="relative group">
-              <img src={`${process.env.PUBLIC_URL}/img/Groupe de masques 9.png`} alt="Brand 2" className="w-full h-auto" />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <img src={`${process.env.PUBLIC_URL}/img/hp-5.jpg`} alt="Brand 2" className="w-full h-auto" />
+              {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div>
                   <h2 className="text-xl font-bold">Karlton Hotel</h2>
                   <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
                   <button className="text-white px-4 py-2">LEARN MORE</button>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="relative group">
-              <img src={`${process.env.PUBLIC_URL}/img/Groupe de masques 10.png`} alt="Brand 3" className="w-full h-auto" />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <img src={`${process.env.PUBLIC_URL}/img/hp-6.jpg`} alt="Brand 3" className="w-full h-auto" />
+              {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div>
                   <h2 className="text-xl font-bold">Karlton Hotel</h2>
                   <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
                   <button className="text-white px-4 py-2">LEARN MORE</button>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="relative group">
-              <img src={`${process.env.PUBLIC_URL}/img/Groupe de masques 11.png`} alt="Brand 4" className="w-full h-auto" />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <img src={`${process.env.PUBLIC_URL}/img/hp-7.jpg`} alt="Brand 4" className="w-full h-auto" />
+              {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div>
                   <h2 className="text-xl font-bold">Karlton Hotel</h2>
                   <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
                   <button className="text-white px-4 py-2">LEARN MORE</button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* Second Row - Two Centered Responsive Images */}
           <div className="flex md:justify-center mt-6 flex-wrap">
             <div className="relative w-full max-w-xl md:max-w-xs md:mx-2 group flex-1 min-w-[200px]">
-              <img src={`${process.env.PUBLIC_URL}/img/Groupe de masques 12.png`} alt="Brand 5" className="w-full h-auto" />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <img src={`${process.env.PUBLIC_URL}/img/hp-8.jpg`} alt="Brand 5" className="w-full h-auto" />
+              {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div>
                   <h2 className="text-xl font-bold">Karlton Hotel</h2>
                   <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
                   <button className="text-white px-4 py-2">LEARN MORE</button>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="relative w-full max-w-xl md:max-w-xs mt-6 md:mt-0 md:mx-2 group flex-1 min-w-[200px]">
-              <img src={`${process.env.PUBLIC_URL}/img/Groupe de masques 13.png`} alt="Brand 6" className="w-full h-auto" />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <img src={`${process.env.PUBLIC_URL}/img/hp-4.jpg`} alt="Brand 6" className="w-full h-auto" />
+              {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div>
                   <h2 className="text-xl font-bold">Karlton Hotel</h2>
                   <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
                   <button className="text-white px-4 py-2">LEARN MORE</button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

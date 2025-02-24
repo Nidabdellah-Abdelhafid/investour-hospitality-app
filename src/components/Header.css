@@ -130,6 +130,7 @@
     .header-left .logo {
       font-size: 1.2rem;
       line-height: 1.2;
+      margin-left: 0px;
     }
   
     .header-nav a {
