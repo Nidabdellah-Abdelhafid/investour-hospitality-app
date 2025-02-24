@@ -59,8 +59,8 @@ function Advantage() {
           >
         <defs>
           <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
-            <stop offset="0" stop-color="#3e003e"/>
-            <stop offset="1" stop-color="#662d91"/>
+            <stop offset="0" stopColor="#3e003e"/>
+            <stop offset="1" stopColor="#662d91"/>
           </linearGradient>
         </defs>
         <g id="Groupe_43" data-name="Groupe 43" transform="translate(-226 -827.621)">
@@ -73,7 +73,7 @@ function Advantage() {
               <text id="CREDIT_CARD_RATES_Favorable_credit_card_interchange_rates" data-name="CREDIT CARD RATES
 
       Favorable credit card 
-      interchange rates" transform="translate(545 68.825)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">CREDIT CARD RATES</tspan><tspan font-size="17"><tspan x="0" y="23"></tspan></tspan><tspan font-size="16" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="44">Favorable credit card </tspan><tspan x="0" y="65">interchange rates</tspan></tspan></text>
+      interchange rates" transform="translate(545 68.825)" fill="#fff" fontSize="18" fontFamily="SegoeUI, Segoe UI"><tspan x="0" y="0">CREDIT CARD RATES</tspan><tspan fontSize="17"><tspan x="0" y="23"></tspan></tspan><tspan fontSize="16" fontFamily="SegoeUI-Light, Segoe UI" fontWeight="300"><tspan x="0" y="44">Favorable credit card </tspan><tspan x="0" y="65">interchange rates</tspan></tspan></text>
               <g id="Groupe_32" data-name="Groupe 32" transform="translate(803.408 63.281)">
                 <path id="Tracé_1555" data-name="Tracé 1555" d="M939.862,383.986h-15.8a2.958,2.958,0,0,1,0-5.916h15.8a2.958,2.958,0,1,1,0,5.916Z" transform="translate(-905.283 -328.687)" fill="#fff"/>
                 <path id="Tracé_1556" data-name="Tracé 1556" d="M931.96,375.1h-7.9a2.958,2.958,0,0,1,0-5.916h7.9a2.958,2.958,0,0,1,0,5.916Z" transform="translate(-905.283 -331.643)" fill="#fff"/>
@@ -87,15 +87,15 @@ function Advantage() {
 
       Favorable 
       intermediary 
-      commission rates" transform="translate(545.386 272.207)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">INTERMEDIARY </tspan><tspan x="0" y="24">CONTRACTS</tspan><tspan font-size="12"><tspan x="0" y="42"></tspan></tspan><tspan font-size="16" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="62">Favorable </tspan><tspan x="0" y="83">intermediary </tspan><tspan x="0" y="104">commission rates</tspan></tspan></text>
+      commission rates" transform="translate(545.386 272.207)" fill="#fff" fontSize="18" fontFamily="SegoeUI, Segoe UI"><tspan x="0" y="0">INTERMEDIARY </tspan><tspan x="0" y="24">CONTRACTS</tspan><tspan fontSize="12"><tspan x="0" y="42"></tspan></tspan><tspan fontSize="16" fontFamily="SegoeUI-Light, Segoe UI" fontWeight="300"><tspan x="0" y="62">Favorable </tspan><tspan x="0" y="83">intermediary </tspan><tspan x="0" y="104">commission rates</tspan></tspan></text>
               <text id="SHARED_SERVICES_Shared_costs_drive_efficiencies" data-name="SHARED SERVICES
 
       Shared costs drive 
-      efficiencies" transform="translate(54.099 294.273)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">SHARED SERVICES</tspan><tspan font-size="12"><tspan x="0" y="18"></tspan></tspan><tspan font-size="16" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="38">Shared costs drive </tspan><tspan x="0" y="59">efficiencies</tspan></tspan></text>
+      efficiencies" transform="translate(54.099 294.273)" fill="#fff" fontSize="18" fontFamily="SegoeUI, Segoe UI"><tspan x="0" y="0">SHARED SERVICES</tspan><tspan fontSize="12"><tspan x="0" y="18"></tspan></tspan><tspan fontSize="16" fontFamily="SegoeUI-Light, Segoe UI" fontWeight="300"><tspan x="0" y="38">Shared costs drive </tspan><tspan x="0" y="59">efficiencies</tspan></tspan></text>
               <g id="Page-1" transform="translate(300.204 279.771)">
                 <g id="Dribbble-Light-Preview" transform="translate(0 0)">
                   <g id="icons">
-                    <path id="share-_x5B__x23_1099_x5D_" d="M817.957,720.188a6.919,6.919,0,1,1,6.919-6.919,6.927,6.927,0,0,1-6.919,6.919Zm-30.634,5.789a12.184,12.184,0,0,0-7.408-4.869V706.3a12.947,12.947,0,0,0,7.8-5.358l16.668,9.621a13.6,13.6,0,0,0,.035,5.568l-17.1,9.843Zm-10.844,15.387a6.919,6.919,0,1,1,6.919-6.919,6.927,6.927,0,0,1-6.919,6.919Zm-6.931-48.4a7.172,7.172,0,0,1,6.919-6.919c10.367,0,10.367,13.826,0,13.826a7.163,7.163,0,0,1-6.919-6.919h0Zm48.409,6.476a13.715,13.715,0,0,0-10.483,4.915l-17.309-9.994a13.8,13.8,0,1,0-27.524-1.4c0,6.441,3.448,11.8,10.367,13.337v14.8c-6.919,1.538-10.367,6.907-10.367,13.337a13.8,13.8,0,1,0,27.443-2.073l17.484-10.052a13.8,13.8,0,1,0,10.39-22.865h0Z" transform="translate(-762.64 -679.14)" fill="#fff" fill-rule="evenodd"/>
+                    <path id="share-_x5B__x23_1099_x5D_" d="M817.957,720.188a6.919,6.919,0,1,1,6.919-6.919,6.927,6.927,0,0,1-6.919,6.919Zm-30.634,5.789a12.184,12.184,0,0,0-7.408-4.869V706.3a12.947,12.947,0,0,0,7.8-5.358l16.668,9.621a13.6,13.6,0,0,0,.035,5.568l-17.1,9.843Zm-10.844,15.387a6.919,6.919,0,1,1,6.919-6.919,6.927,6.927,0,0,1-6.919,6.919Zm-6.931-48.4a7.172,7.172,0,0,1,6.919-6.919c10.367,0,10.367,13.826,0,13.826a7.163,7.163,0,0,1-6.919-6.919h0Zm48.409,6.476a13.715,13.715,0,0,0-10.483,4.915l-17.309-9.994a13.8,13.8,0,1,0-27.524-1.4c0,6.441,3.448,11.8,10.367,13.337v14.8c-6.919,1.538-10.367,6.907-10.367,13.337a13.8,13.8,0,1,0,27.443-2.073l17.484-10.052a13.8,13.8,0,1,0,10.39-22.865h0Z" transform="translate(-762.64 -679.14)" fill="#fff" fillRule="evenodd"/>
                   </g>
                 </g>
               </g>
@@ -103,7 +103,7 @@ function Advantage() {
       TERMS
 
       Industry-leading 
-      terms" transform="translate(54.099 61.131)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">OTA BUSINESS </tspan><tspan x="0" y="24">TERMS</tspan><tspan font-size="12"><tspan x="0" y="42"></tspan></tspan><tspan font-size="16" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="62">Industry-leading </tspan><tspan x="0" y="83">terms</tspan></tspan></text>
+      terms" transform="translate(54.099 61.131)" fill="#fff" fontSize="18" fontFamily="SegoeUI, Segoe UI"><tspan x="0" y="0">OTA BUSINESS </tspan><tspan x="0" y="24">TERMS</tspan><tspan fontSize="12"><tspan x="0" y="42"></tspan></tspan><tspan fontSize="16" fontFamily="SegoeUI-Light, Segoe UI" fontWeight="300"><tspan x="0" y="62">Industry-leading </tspan><tspan x="0" y="83">terms</tspan></tspan></text>
               <g id="Groupe_31" data-name="Groupe 31" transform="translate(269.122 31.545)">
                 <path id="Tracé_1561" data-name="Tracé 1561" d="M683.989,550.825c-.806-.879-1.621-1.768-2.491-2.711.183-.018.3-.046.421-.046h4.772a1.411,1.411,0,0,0,.806-.22,17.444,17.444,0,0,1,10.706-2.812,17.213,17.213,0,0,1,8.481,2.784,1.407,1.407,0,0,0,.852.247c1.52-.009,3.05,0,4.57,0h.559a4.006,4.006,0,0,1-.778.943c-.266.311-.549.6-.824.9s-.55.6-.852.934a7.849,7.849,0,0,1,.284,11.265,7.922,7.922,0,0,1-10.917.293c-.815.879-1.621,1.758-2.473,2.683-.843-.907-1.649-1.786-2.491-2.7a7.784,7.784,0,0,1-6.869,1.905,7.617,7.617,0,0,1-4.451-2.647,7.9,7.9,0,0,1,.7-10.816Zm5.33,11.073a5.225,5.225,0,1,1,0-.009Zm15.624,0a5.3,5.3,0,1,0-.009,0Zm-7.83-6.411c.659-3.325,2.766-5.413,5.825-6.768a15.405,15.405,0,0,0-11.65,0C694.357,550.083,696.454,552.172,697.113,555.487Z" transform="translate(-681.476 -545.005)" fill="#fff"/>
                 <path id="Tracé_1562" data-name="Tracé 1562" d="M774.829,552.822V548.38h2.583v13.729a10.357,10.357,0,0,1-2.573.027c-.018-.22-.037-.449-.064-.751a5.231,5.231,0,0,1-4.579.751,5.065,5.065,0,0,1-2.757-1.96,5.267,5.267,0,0,1,.211-6.448,5.193,5.193,0,0,1,3.38-1.868,5.357,5.357,0,0,1,3.8.962Zm-2.848,7.116a2.816,2.816,0,1,0,0,.009Z" transform="translate(-688.626 -545.289)" fill="#fff"/>
@@ -239,25 +239,25 @@ function Advantage() {
                   <path id="Tracé_1554" data-name="Tracé 1554" d="M593.424,537.584l-7.174-2.874,2.874,7.194.7-2.176,2.894,2.894,1.427-1.437-2.884-2.894Z" transform="translate(-568.127 -516.182)" fill="#fff"/>
                 </g>
               </g>
-              <text id="REVENUE_MANAGEMENT" data-name="REVENUE MANAGEMENT" transform="translate(99.703 24.436)" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">REVENUE MANAGEMENT</tspan></text>
+              <text id="REVENUE_MANAGEMENT" data-name="REVENUE MANAGEMENT" transform="translate(99.703 24.436)" fontSize="25" fontFamily="SegoeUI, Segoe UI"><tspan x="0" y="0">REVENUE MANAGEMENT</tspan></text>
               <text id="Best-in-class_pricing_strategies_inventory_management_and_demand_forecasting_tools_maximize_hotel_revenue" data-name="Best-in-class pricing strategies, inventory 
       management, and demand forecasting tools 
-      maximize hotel revenue" transform="translate(99.235 72.825)" font-size="18" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">Best-in-class pricing strategies, inventory </tspan><tspan x="0" y="21">management, and demand forecasting tools </tspan><tspan x="0" y="42">maximize hotel revenue</tspan></text>
-              <text id="DIGITAL" transform="translate(261.186 225.448)" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">DIGITAL</tspan></text>
+      maximize hotel revenue" transform="translate(99.235 72.825)" fontSize="18" fontFamily="SegoeUI-Light, Segoe UI" fontWeight="300"><tspan x="0" y="0">Best-in-class pricing strategies, inventory </tspan><tspan x="0" y="21">management, and demand forecasting tools </tspan><tspan x="0" y="42">maximize hotel revenue</tspan></text>
+              <text id="DIGITAL" transform="translate(261.186 225.448)" fontSize="24" fontFamily="SegoeUI, Segoe UI"><tspan x="0" y="0">DIGITAL</tspan></text>
               <text id="Industry_leading_websites_and_mobile_apps_allow_guests_to_book_direct_on_our_lowest_cast_channels" data-name="Industry leading websites and 
       mobile apps allow guests to book 
-      direct on our lowest cast channels" transform="translate(261.186 269.714)" font-size="18" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">Industry leading websites and </tspan><tspan x="0" y="18">mobile apps allow guests to book </tspan><tspan x="0" y="36">direct on our lowest cast channels</tspan></text>
-              <text id="SALES" transform="translate(309.704 458.76)" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">SALES</tspan></text>
+      direct on our lowest cast channels" transform="translate(261.186 269.714)" fontSize="18" fontFamily="SegoeUI-Light, Segoe UI" fontWeight="300"><tspan x="0" y="0">Industry leading websites and </tspan><tspan x="0" y="18">mobile apps allow guests to book </tspan><tspan x="0" y="36">direct on our lowest cast channels</tspan></text>
+              <text id="SALES" transform="translate(309.704 458.76)" fontSize="20" fontFamily="SegoeUI, Segoe UI"><tspan x="0" y="0">SALES</tspan></text>
               <text id="Global_regional_and_property_based_sellers_fill_hotels_through_deep_customer_relationships_and_in-depth_market_knowledge" data-name="Global, regional and property based sellers 
       fill hotels through deep customer 
-      relationships and in-depth market knowledge" transform="translate(309.704 494.984)" font-size="18" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">Global, regional and property based sellers </tspan><tspan x="0" y="18">fill hotels through deep customer </tspan><tspan x="0" y="36">relationships and in-depth market knowledge</tspan></text>
-              <text id="LOYALTY" transform="translate(254.108 693.343)" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">LOYALTY</tspan></text>
-              <text id="Largest_hotel_loyalty_platform_with_members_" data-name="Largest hotel loyalty platform with members " transform="translate(254.108 729.724)" font-size="18" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">Largest hotel loyalty platform with members </tspan></text>
-              <text id="who_stay_more_often_and_spend_more" data-name="who stay more often and spend more" transform="translate(254.108 752.628)" font-size="18" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">who stay more often and spend more</tspan></text>
-              <text id="RESERVATIONS" transform="translate(105.704 861.954)" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">RESERVATIONS</tspan></text>
-              <text id="Fully_integrated_platform_with_" data-name="Fully integrated platform with " transform="translate(105.704 906.183)" font-size="18" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">Fully integrated platform with </tspan></text>
-              <text id="revenue_management_" data-name="revenue management, " transform="translate(105.704 926.666)" font-size="18" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">revenue management, </tspan></text>
-              <text id="eCommerce_PMS_and_GDS" data-name="eCommerce, PMS and GDS" transform="translate(105.704 948.815)" font-size="18" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">eCommerce, PMS and GDS</tspan></text>
+      relationships and in-depth market knowledge" transform="translate(309.704 494.984)" fontSize="18" fontFamily="SegoeUI-Light, Segoe UI" fontWeight="300"><tspan x="0" y="0">Global, regional and property based sellers </tspan><tspan x="0" y="18">fill hotels through deep customer </tspan><tspan x="0" y="36">relationships and in-depth market knowledge</tspan></text>
+              <text id="LOYALTY" transform="translate(254.108 693.343)" fontSize="24" fontFamily="SegoeUI, Segoe UI"><tspan x="0" y="0">LOYALTY</tspan></text>
+              <text id="Largest_hotel_loyalty_platform_with_members_" data-name="Largest hotel loyalty platform with members " transform="translate(254.108 729.724)" fontSize="18" fontFamily="SegoeUI-Light, Segoe UI" fontWeight="300"><tspan x="0" y="0">Largest hotel loyalty platform with members </tspan></text>
+              <text id="who_stay_more_often_and_spend_more" data-name="who stay more often and spend more" transform="translate(254.108 752.628)" fontSize="18" fontFamily="SegoeUI-Light, Segoe UI" fontWeight="300"><tspan x="0" y="0">who stay more often and spend more</tspan></text>
+              <text id="RESERVATIONS" transform="translate(105.704 861.954)" fontSize="24" fontFamily="SegoeUI, Segoe UI"><tspan x="0" y="0">RESERVATIONS</tspan></text>
+              <text id="Fully_integrated_platform_with_" data-name="Fully integrated platform with " transform="translate(105.704 906.183)" fontSize="18" fontFamily="SegoeUI-Light, Segoe UI" fontWeight="300"><tspan x="0" y="0">Fully integrated platform with </tspan></text>
+              <text id="revenue_management_" data-name="revenue management, " transform="translate(105.704 926.666)" fontSize="18" fontFamily="SegoeUI-Light, Segoe UI" fontWeight="300"><tspan x="0" y="0">revenue management, </tspan></text>
+              <text id="eCommerce_PMS_and_GDS" data-name="eCommerce, PMS and GDS" transform="translate(105.704 948.815)" fontSize="18" fontFamily="SegoeUI-Light, Segoe UI" fontWeight="300"><tspan x="0" y="0">eCommerce, PMS and GDS</tspan></text>
             </g>
           </g>
         </g>
