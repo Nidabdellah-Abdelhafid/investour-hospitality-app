@@ -223,7 +223,7 @@ function Brands() {
               </div> */}
             </div>
             <div className="relative group">
-              <img src={`${process.env.PUBLIC_URL}/img/hp-5.jpg`} alt="Brand 2" className="w-full h-auto" />
+              <img src={`https://s3.eu-west-1.amazonaws.com/fractalitetest/2025-02-25T14:12:18.173586782_hp-5-min.JPG`} alt="Brand 2" className="w-full h-auto" />
               {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div>
                   <h2 className="text-xl font-bold">Karlton Hotel</h2>
@@ -243,7 +243,7 @@ function Brands() {
               </div> */}
             </div>
             <div className="relative group">
-              <img src={`${process.env.PUBLIC_URL}/img/hp-7.jpg`} alt="Brand 4" className="w-full h-auto" />
+              <img src={`https://s3.eu-west-1.amazonaws.com/fractalitetest/2025-02-25T14:12:29.863323491_hp-7-min.JPG`} alt="Brand 4" className="w-full h-auto" />
               {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div>
                   <h2 className="text-xl font-bold">Karlton Hotel</h2>

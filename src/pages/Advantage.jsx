@@ -294,7 +294,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/hp-5.jpg`}// Replace with the actual image URL
+              src={`https://s3.eu-west-1.amazonaws.com/fractalitetest/2025-02-25T13:42:25.731553428_inv-4-min.JPG`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />
@@ -382,7 +382,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/hp-12.jpg`}// Replace with the actual image URL
+              src={`https://s3.eu-west-1.amazonaws.com/fractalitetest/2025-02-25T13:44:19.970042149_inv-1-min.JPG`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />
@@ -415,7 +415,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/hp-13.jpg`}// Replace with the actual image URL
+              src={`https://s3.eu-west-1.amazonaws.com/fractalitetest/2025-02-25T13:42:35.141702507_inv-2-min.JPG`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />
@@ -428,7 +428,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/hp-14.jpg`}// Replace with the actual image URL
+              src={`https://s3.eu-west-1.amazonaws.com/fractalitetest/2025-02-25T14:11:55.185139760_hp-14-min.JPG`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />
@@ -461,7 +461,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/hp-15.jpg`}// Replace with the actual image URL
+              src={`https://s3.eu-west-1.amazonaws.com/fractalitetest/2025-02-25T14:12:05.356552865_hp-15-min.JPG`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />
