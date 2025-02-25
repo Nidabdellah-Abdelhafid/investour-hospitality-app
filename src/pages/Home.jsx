@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { IoChevronBackOutline, IoChevronForward, IoCaretForwardCircleOutline, IoPauseCircleOutline } from "react-icons/io5";
 import ScrollToTopButton from './ScrollToTopButton';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -409,17 +410,18 @@ const Home = () => {
 
           {/* Call to Action */}
           <div className="flex items-center px-4 md:px-12">
-            <button className="relative inline-flex items-center  px-8 py-4 border-2 border-[#6D3D90] text-[#6D3D90] font-bold uppercase hover:bg-[#6D3D90] hover:text-white transition duration-300">
+            <Link to="/work" className="relative inline-flex items-center  px-8 py-4 border-2 border-[#6D3D90] text-[#6D3D90] font-bold uppercase hover:bg-[#6D3D90] hover:text-white transition duration-300">
               <span className="absolute left-[-42px] w-14 h-[2px] bg-[#6D3D90] transition-all duration-300 group-hover:w-12"></span>
               HOW WE WORK TOGETHER
-            </button>
+            </Link>
+            
           </div>
         </div>
 
       </div>
 
       <div
-        className="hero min-h-screen mb-8"
+        className="hero min-h-screen mb-8"git 
         style={{
           backgroundImage: `url(${process.env.PUBLIC_URL}/img/Groupedemasques3.png)`,
         }}>
