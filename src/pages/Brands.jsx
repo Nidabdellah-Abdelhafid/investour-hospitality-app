@@ -92,7 +92,7 @@ function Brands() {
         <div id="slide2" className="carousel-item relative w-full h-auto">
           <img
             alt=""
-            src={`${process.env.PUBLIC_URL}/img/hp-2.JPG`}
+            src={`https://s3.eu-west-1.amazonaws.com/fractalitetest/2025-02-25T14:20:13.607553421_hp-2-min%20(1).jpg`}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
