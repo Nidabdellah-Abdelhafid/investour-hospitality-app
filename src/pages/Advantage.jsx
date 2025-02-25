@@ -339,7 +339,7 @@ function Advantage() {
           {/* Image Section */}
           <div className="md:w-full ">
             <img
-              src={`${process.env.PUBLIC_URL}/img/hp-10.jpg`}// Replace with the actual image URL
+              src={`https://s3.eu-west-1.amazonaws.com/fractalitetest/2025-02-25T13:42:25.731553428_inv-4-min.JPG`}// Replace with the actual image URL
               alt="Loyalty Program Room"
               className="md:h-auto w-full"
             />
