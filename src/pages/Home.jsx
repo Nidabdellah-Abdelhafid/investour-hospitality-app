@@ -421,7 +421,7 @@ const Home = () => {
       </div>
 
       <div
-        className="hero h-screen md:h-[70vh] mb-8"git 
+        className="hero min-h-screen md:h-[70vh] mb-8"git 
         style={{
           backgroundImage: `url(${process.env.PUBLIC_URL}/img/Groupedemasques3.png)`,
         }}>
