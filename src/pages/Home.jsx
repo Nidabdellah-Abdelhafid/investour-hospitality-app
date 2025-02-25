@@ -437,17 +437,17 @@ const Home = () => {
             <img
               alt=""
               src={`${process.env.PUBLIC_URL}/img/brd-1.png`}
-              className="w-1/2 md:w-[25%] h-auto mb-4"
+              className="w-1/2 md:w-[20%] h-auto mb-4"
             />
             <img
               alt=""
               src={`${process.env.PUBLIC_URL}/img/brd-2.png`}
-              className="w-1/2 md:w-[25%] h-auto mb-4"
+              className="w-1/2 md:w-[20%] h-auto mb-4"
             />
             <img
               alt=""
               src={`${process.env.PUBLIC_URL}/img/brd-3.png`}
-              className="w-1/2 md:w-[25%] h-auto mb-4"
+              className="w-1/2 md:w-[20%] h-auto mb-4"
             />
           </div>
         </div>
