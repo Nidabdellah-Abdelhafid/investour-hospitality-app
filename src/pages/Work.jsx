@@ -11,10 +11,10 @@ function Work() {
         <div className="breadcrumbs text-sm md:px-36">
         <ul>
           <li>
-            <a>Home</a>
+            <a>Accueil</a>
           </li>
           <li>
-            <a>How we work together</a>
+            <a>Investour Hospitality</a>
           </li>
         </ul>
       </div>
