@@ -39,7 +39,7 @@ function BrandsVHR() {
         <div className="breadcrumbs text-sm md:px-36">
           <ul>
             <li><a>Home</a></li>
-            <li><a className='text-[12px]'>Brands</a></li>
+            <li><a className='text-[12px]'>Marques</a></li>
             <li><a className='text-[12px]'>Valeria Hotels & Resorts</a></li>
           </ul>
         </div>

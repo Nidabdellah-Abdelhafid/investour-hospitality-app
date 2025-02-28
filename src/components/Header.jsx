@@ -76,11 +76,11 @@ function Header() {
       </div>
 
       <nav className={`header-nav ${menuOpen ? 'open' : ''}`}>
-        <Link to="/advantage" onClick={() => { closeMenu(); scrollToTop() }}><p>INVESTOUR HOSPITALITY ADVANTAGE</p></Link>
+        <Link to="/advantage" onClick={() => { closeMenu(); scrollToTop() }}><p>L’Avantage Investour Hospitality</p></Link>
         {/* <Link to="/developement" onClick={() => { closeMenu(); scrollToTop() }}><p>INVESTOUR HOSPITALITY DEVELOPMENT</p></Link> */}
         
         <div className="dropdown dropdown-hover">
-          <div tabIndex={0} role="button" className=""><p>BRANDS</p></div>
+          <div tabIndex={0} role="button" className=""><p>Marques</p></div>
           <ul tabIndex={0} className="dropdown-content menu bg-[#6D3D90] rounded-box z-[1] w-52 p-2 shadow justify-center ml-24 md:ml-0 mt-2">
             <li>
               <Link to="/brandsVHR" onClick={() => { closeMenu(); scrollToTop() }}>
@@ -95,7 +95,7 @@ function Header() {
             
           </ul>
         </div>
-        <Link to="/work" onClick={() => { closeMenu(); scrollToTop() }}><p>HOW WE WORK TOGETHER</p></Link>
+        <Link to="/work" onClick={() => { closeMenu(); scrollToTop() }}><p>Investour Hospitality</p></Link>
         <div className="header-right">
           <a href="#contact" className="contact-button justify-center items-center text-center" onClick={() => { closeMenu(); scrollToTop() }}>
             <span className="phone-icon"><FaPhoneAlt /></span> CONTACT US

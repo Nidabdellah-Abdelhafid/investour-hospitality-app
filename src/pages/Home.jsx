@@ -58,8 +58,8 @@ const Home = () => {
 
           {/* Text Section (Centered on Mobile) */}
           <div className="absolute bottom-24 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-20 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
-            <h1 className="text-xl sm:text-2xl md:text-6xl font-700">OWN THE MOOD</h1>
-            <p className="mt-2 text-xs sm:text-sm md:text-lg">More Power Today, More Value Tomorrow</p>
+            <h1 className="text-xl sm:text-2xl md:text-5xl font-700">TRANSFORMEZ LES SÉJOURS EN HISTOIRES</h1>
+            <p className="mt-2 text-xs sm:text-sm md:text-lg">Des expériences inoubliables aujourd’hui, des souvenirs précieux pour toujours.</p>
           </div>
 
           {/* Carousel Controls Section */}
@@ -93,8 +93,8 @@ const Home = () => {
 
           {/* Text Section (Centered on Mobile) */}
           <div className="absolute bottom-24 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-20 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
-            <h1 className="text-xl sm:text-2xl md:text-6xl font-700">OWN THE MOOD</h1>
-            <p className="mt-2 text-xs sm:text-sm md:text-lg">More Power Today, More Value Tomorrow</p>
+            <h1 className="text-xl sm:text-2xl md:text-5xl font-700">TRANSFORMEZ LES SÉJOURS EN HISTOIRES</h1>
+            <p className="mt-2 text-xs sm:text-sm md:text-lg">Des expériences inoubliables aujourd’hui, des souvenirs précieux pour toujours.</p>
           </div>
 
           {/* Carousel Controls Section */}
@@ -128,8 +128,8 @@ const Home = () => {
 
           {/* Text Section (Centered on Mobile) */}
           <div className="absolute bottom-24 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-20 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
-            <h1 className="text-xl sm:text-2xl md:text-6xl font-700">OWN THE MOOD</h1>
-            <p className="mt-2 text-xs sm:text-sm md:text-lg">More Power Today, More Value Tomorrow</p>
+            <h1 className="text-xl sm:text-2xl md:text-5xl font-700">TRANSFORMEZ LES SÉJOURS EN HISTOIRES</h1>
+            <p className="mt-2 text-xs sm:text-sm md:text-lg">Des expériences inoubliables aujourd’hui, des souvenirs précieux pour toujours.</p>
           </div>
 
           {/* Carousel Controls Section */}
@@ -255,7 +255,7 @@ const Home = () => {
 
       {/* Content Section map */}
       <div className='mb-0 md:mb-8'>
-        <h1 className="text-2xl md:text-5xl font-500 mb-2 md:mb-12">A Country of Opportunities</h1>
+        <h1 className="text-2xl md:text-5xl font-500 mb-2 md:mb-12">Un pays d'opportunités</h1>
         <div
           className="flex flex-col lg:flex-row justify-between items-start"
           style={{ backgroundColor: "#fff" }}
@@ -270,23 +270,28 @@ const Home = () => {
                 </h3>
                 <div className="border-b border-[#6D3D90]"></div>
                 <p className={`text-purple-500 text-end ${selectedRegion === 'Casablanca' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>Siège du groupe</p>
+                <p className={`text-purple-500 text-end ${selectedRegion === 'Casablanca' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>Prochaines ouvertures d'hôtels</p>
               </div>
               <div>
                 <h3 className={`text-lg  text-purple-700 text-start ${selectedRegion === 'Marrakech-Tensift-Al Haouz' ? 'font-bold' : 'font-900'} `}>
                   Marrakech
                 </h3>
                 <div className="border-b border-[#6D3D90]"></div>
-                <p className={`text-purple-500 text-end ${selectedRegion === 'Marrakech-Tensift-Al Haouz' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>Hôtels & Palmiya Fun & Waterland</p>
+                <p className={`text-purple-500 text-end ${selectedRegion === 'Marrakech-Tensift-Al Haouz' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>2 hôtels (Dar Atlas Club et Madina Club) </p>
+                <p className={`text-purple-500 text-end ${selectedRegion === 'Marrakech-Tensift-Al Haouz' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>1 parc aquatique (Palmiya Fun & Waterland)</p>
+                <p className={`text-purple-500 text-end ${selectedRegion === 'Marrakech-Tensift-Al Haouz' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>Prochaines ouvertures d'hôtels</p>
               </div>
               <div>
                 <h3 className={`text-lg  text-purple-700 text-start ${selectedRegion === 'Souss-Massa' ? 'font-bold' : 'font-900'} `}>Agadir</h3>
                 <div className="border-b border-[#6D3D90]"></div>
-                <p className={`text-purple-500 text-end ${selectedRegion === 'Souss-Massa' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>Jardins d’Agadir Club & Resort</p>
+                <p className={`text-purple-500 text-end ${selectedRegion === 'Souss-Massa' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>1 hôtel (Jardins d’Agadir Club)</p>
+                <p className={`text-purple-500 text-end ${selectedRegion === 'Souss-Massa' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>Prochaines ouvertures d'hôtels</p>
               </div>
               <div>
-                <h3 className={`text-lg  text-purple-700 text-start ${selectedRegion === 'Gharb-Chrarda-Beni Hssen' ? 'font-bold' : 'font-900'} `}>Lixus</h3>
+                <h3 className={`text-lg  text-purple-700 text-start ${selectedRegion === 'Gharb-Chrarda-Beni Hssen' ? 'font-bold' : 'font-900'} `}>Laarache</h3>
                 <div className="border-b border-[#6D3D90]"></div>
                 <p className={`text-purple-500 text-end ${selectedRegion === 'Gharb-Chrarda-Beni Hssen' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>Lixus Beach Resort</p>
+                <p className={`text-purple-500 text-end ${selectedRegion === 'Gharb-Chrarda-Beni Hssen' ? 'font-600 text-2sm' : 'font-300 text-sm'} `}>Prochaines ouvertures d'hôtels</p>
               </div>
             </div>
           </div>
@@ -428,7 +433,7 @@ const Home = () => {
         <div className="hero-overlay bg-opacity-90 bg-[#0A1D5A] "></div>
         <div className='text-white items-start w-full'>
           <div className='items-start w-64 md:w-1/4'>
-            <h1 className="mb-5 text-5xl font-600 text-end">Our Brands</h1>
+            <h1 className="mb-5 text-5xl font-600 text-end">Nos marques</h1>
             <div className="border-b border-2 border-white w-full mb-8"></div>
           </div>
           <div className="items-center justify-around w-full  flex flex-col md:flex-row">

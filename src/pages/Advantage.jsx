@@ -27,20 +27,20 @@ function Advantage() {
         <div className="breadcrumbs text-sm md:px-36">
           <ul>
             <li><a>Home</a></li>
-            <li><a className='text-[12px]'>How we work Avontage</a></li>
+            <li><a className='text-[12px]'>L’Avantage Investour Hospitality</a></li>
           </ul>
         </div>
       </div>
 
       <section className="content-section md:items-center md:justify-center md:px-12 py-4 mx-10 md:mx-16">
             <h1 className="text-2xl md:text-3xl lg:text-5xl font-600 mb-6 lg:mb-10 text-start" style={{ color: '#281A2A' }}>
-              The Power Of<br />
-              Investour Hospitality
+              La Force <br />
+              d’Investour Hospitality
             </h1>
             <div className="flex my-2">
               <div className="w-1 h-[185px] lg:h-20" style={{ backgroundColor: '#281A2A' }}></div>
               <p className="text-base md:text-2lg lg:text-lg mb-6 font-500 text-start ml-6 lg:ml-10 my-2 lg:mx-4" style={{ color: '#281A2A' }}>
-                Investour Hospitality succeeds when you do. Our team looks forward to working with you to understand your hotel development goals, offer our hospitality expertise and support your business objectives to achieve long-term success.
+              Investour Hospitality réussit lorsque vous réussissez. Notre équipe est impatiente de collaborer avec vous pour comprendre vos objectifs de développement hôtelier, vous apporter notre expertise en hôtellerie et soutenir vos ambitions afin d’assurer un succès durable.
               </p>
             </div>
       </section>
