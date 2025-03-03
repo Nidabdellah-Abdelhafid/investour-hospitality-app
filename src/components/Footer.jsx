@@ -1,7 +1,14 @@
 import React from 'react';
 import './Footer.css'; // Import the CSS file for styling
 import { FaLinkedin } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
   return (
 
       <footer className="bg-[#3e005f] text-white py-10 footer-fm">
@@ -9,11 +16,11 @@ function Footer() {
         {/* Top Navigation Links */}
         <nav className="flex flex-col md:flex-row justify-center md:justify-between items-center text-sm font-light py-4 px-12">
           <ul className="flex flex-wrap justify-center md:justify-start gap-40">
-            <li><a href="#" className="hover:underline">Accueil</a></li>
-            <li><a href="#" className="hover:underline">L’Avantage Investour Hospitality</a></li>
-            <li><a href="#" className="hover:underline">Investour Hospitality</a></li>
-            <li><a href="#" className="hover:underline">Valeria Hotels & Resorts</a></li>
-            <li><a href="#" className="hover:underline">Valeria Collection</a></li>
+            <li><Link to="/" onClick={scrollToTop()} className="hover:underline">Accueil</Link></li>
+            <li><Link to="/advantage" onClick={scrollToTop()} className="hover:underline">L’Avantage Investour Hospitality</Link></li>
+            <li><Link to="/work" onClick={scrollToTop()} className="hover:underline">Investour Hospitality</Link></li>
+            <li><Link to="/brandsVHR" onClick={scrollToTop()} className="hover:underline">Valeria Hotels & Resorts</Link></li>
+            <li><Link to="/brands" onClick={scrollToTop()} className="hover:underline">Valeria Collection</Link></li>
           </ul>
         </nav>
 
@@ -24,8 +31,8 @@ function Footer() {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-300 px-12">
           <div className="text-center md:text-left mb-4 md:mb-0">
-            <p className=''>Copyright © 2025 Investour Hospitality, Inc. All Rights Reserved</p>
-            <p className='mt-3'>Powered by Investour</p>
+            <p className='font-700'>Copyright © 2025 Investour Hospitality, Inc. All Rights Reserved</p>
+            <p className='mt-3 font-700'>Powered by Investour</p>
           </div>
 
           {/* Social Media + Logo */}
