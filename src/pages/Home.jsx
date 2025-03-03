@@ -426,7 +426,7 @@ const Home = () => {
       </div>
 
       <div
-        className="hero min-h-screen md:h-[70vh] mb-8"git 
+        className="hero min-h-screen md:h-[70vh] mb-8"
         style={{
           backgroundImage: `url(${process.env.PUBLIC_URL}/img/Groupedemasques3.png)`,
         }}>
@@ -436,23 +436,18 @@ const Home = () => {
             <h1 className="mb-5 text-5xl font-600 text-end">Nos marques</h1>
             <div className="border-b border-2 border-white w-full mb-8"></div>
           </div>
-          <div className="items-center justify-around w-full  flex flex-col md:flex-row">
+          <div className="items-center justify-around w-full  flex flex-col md:flex-row p-14">
 
             
             <img
               alt=""
-              src={`${process.env.PUBLIC_URL}/img/brd-1.png`}
-              className="w-1/2 md:w-[15%] h-auto mb-4"
+              src={`${process.env.PUBLIC_URL}/img/v-l-1.png`}
+              className="w-full md:w-[25%] h-auto mb-14"
             />
             <img
               alt=""
-              src={`${process.env.PUBLIC_URL}/img/brd-2.png`}
-              className="w-1/2 md:w-[15%] h-auto mb-4"
-            />
-            <img
-              alt=""
-              src={`${process.env.PUBLIC_URL}/img/brd-3.png`}
-              className="w-1/2 md:w-[15%] h-auto mb-4"
+              src={`${process.env.PUBLIC_URL}/img/v-l-2.png`}
+              className="w-full md:w-[25%] h-auto mb-4"
             />
           </div>
         </div>

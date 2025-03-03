@@ -3,44 +3,36 @@ import './Footer.css'; // Import the CSS file for styling
 import { FaLinkedin } from "react-icons/fa6";
 function Footer() {
   return (
-    <footer className="footer">
-      <div className="footer-top">
-        <a href="#careers">Careers</a>
-        <a href="#values">Core Values & Heritage</a>
-        <a href="#csr">Corporate Social Responsibility</a>
-        <a href="#diversity">Diversity</a>
-        <a href="#residences">Branded Residences</a>
-        <a href="#news">News</a>
-      </div>
 
-      <div className="dividerf" ></div>
+      <footer className="bg-[#3e005f] text-white py-10 footer-fm">
+      <div className="max-w-full mx-auto px-6 lg:px-12">
+        {/* Top Navigation Links */}
+        <nav className="flex flex-col md:flex-row justify-center md:justify-between items-center text-sm font-light py-4 px-12">
+          <ul className="flex flex-wrap justify-center md:justify-start gap-40">
+            <li><a href="#" className="hover:underline">Accueil</a></li>
+            <li><a href="#" className="hover:underline">L’Avantage Investour Hospitality</a></li>
+            <li><a href="#" className="hover:underline">Investour Hospitality</a></li>
+            <li><a href="#" className="hover:underline">Valeria Hotels & Resorts</a></li>
+            <li><a href="#" className="hover:underline">Valeria Collection</a></li>
+          </ul>
+        </nav>
 
-      <div className="footer-bottom">
-        <div className="footer-left">
-          <div className="footer-a">
-            <a href="#terms">Terms of Use</a>
-            <a href="#privacy">Privacy Center</a>
-            <a href="#help">Help</a>
-            <a href="#sitemap">Site Map</a>
-            <a href="#sell-info">Do Not Sell My Personal Information</a>
+        {/* Separator */}
+        <div className="border-t border-purple-800 my-4"></div>
+        
+
+        {/* Bottom Section */}
+        <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-300 px-12">
+          <div className="text-center md:text-left mb-4 md:mb-0">
+            <p className=''>Copyright © 2025 Investour Hospitality, Inc. All Rights Reserved</p>
+            <p className='mt-3'>Powered by Investour</p>
           </div>
-          
-          <div className='copyright-side'>
-            <p className="copyright">
-            Copyright © 2025 Investour Hospitality, Inc. All Rights Reserved
-          </p>
-          <p className="powered-by">Powered by Investour</p>
-          </div>
-          
-        </div>
 
-        <div className="footer-right">
-          <div className="footer-right-content">
-            <a href="#tracking">Tracking Preferences</a>
-            <a href="#linkedin" className="social-icon"><FaLinkedin/></a>
-            <div className="footer-logo">
-              <h2>
-              <svg xmlns="http://www.w3.org/2000/svg" width="151.246" height="53.98" viewBox="0 0 151.246 53.98">
+          {/* Social Media + Logo */}
+          <div className="flex items-center gap-10 mt-6 md:mt-0">
+            <FaLinkedin size={26} className="text-white hover:text-gray-300 cursor-pointer" />
+            <span className="font-semibold">
+            <svg xmlns="http://www.w3.org/2000/svg" width="151.246" height="53.98" viewBox="0 0 151.246 53.98">
             <g id="Investour_Hospitality" data-name="Investour Hospitality" transform="translate(-89.53 -158.65)">
                 <g id="Calque_1" transform="translate(89.53 158.65)">
                 <path id="Tracé_1" data-name="Tracé 1" d="M187.86,180.012h3.459v2.3A5.425,5.425,0,0,1,196,179.7c3.4,0,5.331,2.24,5.331,5.727v9.555H197.9v-8.505c0-2.353-1.162-3.656-3.2-3.656s-3.374,1.362-3.374,3.715v8.449H187.86v-14.97Z" transform="translate(-166.536 -175.135)" fill="#fff"/>
@@ -65,14 +57,13 @@ function Footer() {
                 </g>
             </g>
             </svg>
-              </h2>
-            </div>
+            </span>
           </div>
-          
         </div>
       </div>
-
     </footer>
+
+
   );
 }
 
