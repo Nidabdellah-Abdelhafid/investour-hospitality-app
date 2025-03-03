@@ -12,10 +12,10 @@ function Footer() {
   return (
 
       <footer className="bg-[#3e005f] text-white py-10 footer-fm">
-      <div className="max-w-full mx-auto px-6 lg:px-12">
+      <div className="max-w-full mx-auto px-6 md:px-12">
         {/* Top Navigation Links */}
         <nav className="flex flex-col md:flex-row justify-center md:justify-between items-center text-sm font-light py-4 px-12">
-          <ul className="flex flex-wrap justify-center md:justify-start gap-40">
+          <ul className="flex flex-wrap justify-center md:justify-start gap-5 md:gap-40">
             <li><Link to="/" onClick={scrollToTop()} className="hover:underline">Accueil</Link></li>
             <li><Link to="/advantage" onClick={scrollToTop()} className="hover:underline">L’Avantage Investour Hospitality</Link></li>
             <li><Link to="/work" onClick={scrollToTop()} className="hover:underline">Investour Hospitality</Link></li>
