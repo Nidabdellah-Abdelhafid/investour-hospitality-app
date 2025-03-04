@@ -121,7 +121,7 @@ const Home = () => {
         <div id="slide3" className="carousel-item relative w-full h-screen">
           <img
             alt=""
-            src={`${process.env.PUBLIC_URL}/img/hp-3.jpg`}
+            src={`${process.env.PUBLIC_URL}/img/valeria.jpeg`}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -389,8 +389,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='flex flex-col md:flex-row items-center justify-between px-10 mb-16'>
-          <div className="flex items-center justify-around w-full max-w-5xl md:mt-8 mb-10 md:mb-0 md:py-0 gap-6 flex-col md:flex-row">
+          <div className="flex items-center justify-around w-full max-w-full md:mt-8 md:mb-0 md:py-0 gap-6 flex-col md:flex-row px-14 mb-16">
             <div className="text-center">
               <h3 className="text-2xl md:text-xl font-semibold text-purple-700">4</h3>
               <p className="text-[#6D3D90] text-4sm md:text-xl">hôtels & resorts</p>
@@ -412,21 +411,11 @@ const Home = () => {
               <p className="text-[#6D3D90] text-4sm md:text-xl">Valeria Hotels & Resorts, leader de l’All-Inclusive au Maroc</p>
             </div>
           </div>
-
-          {/* Call to Action */}
-          <div className="flex items-center px-4 md:px-12">
-            <Link to="/work" className="relative inline-flex items-center  px-8 py-4 border-2 border-[#6D3D90] text-[#6D3D90] font-bold uppercase hover:bg-[#6D3D90] hover:text-white transition duration-300">
-              <span className="absolute left-[-42px] w-14 h-[2px] bg-[#6D3D90] transition-all duration-300 group-hover:w-12"></span>
-              HOW WE WORK TOGETHER
-            </Link>
-            
-          </div>
         </div>
 
-      </div>
 
       <div
-        className="hero min-h-screen md:h-[70vh] mb-8"
+        className="hero h-screen md:h-[70vh] mb-8"
         style={{
           backgroundImage: `url(${process.env.PUBLIC_URL}/img/Groupedemasques3.png)`,
         }}>
@@ -434,20 +423,20 @@ const Home = () => {
         <div className='text-white items-start w-full'>
           <div className='items-start w-64 md:w-1/4'>
             <h1 className="mb-5 text-5xl font-600 text-end">Nos marques</h1>
-            <div className="border-b border-2 border-white w-full mb-8"></div>
+            <div className="border-b border-2 border-white w-full mb-10"></div>
           </div>
-          <div className="items-center justify-around w-full  flex flex-col md:flex-row p-14">
+          <div className="items-center justify-around w-full  flex flex-col md:flex-row p-14 ">
 
             
             <img
               alt=""
               src={`${process.env.PUBLIC_URL}/img/v-l-1.png`}
-              className="w-full md:w-[25%] h-auto mb-14"
+              className="w-full md:w-[25%] h-auto mb-16 md:mb-0"
             />
             <img
               alt=""
               src={`${process.env.PUBLIC_URL}/img/v-l-2.png`}
-              className="w-full md:w-[25%] h-auto mb-4"
+              className="w-full md:w-[25%] h-auto mb-4 md:mb-0"
             />
           </div>
         </div>

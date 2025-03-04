@@ -15,8 +15,8 @@ function Footer() {
       <div className="max-w-full mx-auto px-6 md:px-12">
         {/* Top Navigation Links */}
         <nav className="flex flex-col md:flex-row justify-center md:justify-between items-center text-sm font-light py-4 px-12">
-          <ul className="flex flex-wrap justify-center md:justify-start gap-5 md:gap-40">
-            <li><Link to="/" onClick={scrollToTop()} className="hover:underline">Accueil</Link></li>
+          <ul className="flex flex-wrap justify-center md:justify-around gap-5 md:gap-52">
+            {/* <li><Link to="/" onClick={scrollToTop()} className="hover:underline">Accueil</Link></li> */}
             <li><Link to="/advantage" onClick={scrollToTop()} className="hover:underline">L’Avantage Investour Hospitality</Link></li>
             <li><Link to="/work" onClick={scrollToTop()} className="hover:underline">Investour Hospitality</Link></li>
             <li><Link to="/brandsVHR" onClick={scrollToTop()} className="hover:underline">Valeria Hotels & Resorts</Link></li>

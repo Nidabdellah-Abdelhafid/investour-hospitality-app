@@ -57,11 +57,12 @@ function BrandsVHR() {
 
           {/* Text Section (Centered on Mobile) */}
           <div className="absolute bottom-24 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:top-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
-            <h1 className="text-xl sm:text-xl md:text-4xl font-700">Valeria Hotels & Resorts – L’All-Inclusive Réinventé</h1>
+            <h1 className="text-xl sm:text-xl md:text-4xl font-bold">Bienvenue chez Valeria Hotels & Resorts</h1>
+            <p className="text-white text-start text-xs  md:text-lg mt-2">L'élégance accessible, l'expérience tout compris réinventée.</p>
           </div>
 
           <div className="absolute bottom-6 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
-            {/* <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">Royal Mansour Marrakech</p> */}
+            {/* <p className="text-white text-center text-xs sm:text-sm md:text-sm mt-2">L'élégance accessible, l'expérience tout compris réinventée.</p> */}
           </div>
 
 
@@ -99,7 +100,8 @@ function BrandsVHR() {
 
           {/* Text Section (Centered on Mobile) */}
           <div className="absolute bottom-24 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:top-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
-          <h1 className="text-xl sm:text-xl md:text-4xl font-700">Valeria Hotels & Resorts – L’All-Inclusive Réinventé</h1>
+          <h1 className="text-xl sm:text-xl md:text-4xl font-bold">Bienvenue chez Valeria Hotels & Resorts</h1>
+            <p className="text-white text-start text-xs  md:text-lg mt-2">L'élégance accessible, l'expérience tout compris réinventée.</p>
           </div>
 
           <div className="absolute bottom-6 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
@@ -141,7 +143,8 @@ function BrandsVHR() {
 
           {/* Text Section (Centered on Mobile) */}
           <div className="absolute bottom-24 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:top-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
-          <h1 className="text-xl sm:text-xl md:text-4xl font-700">Valeria Hotels & Resorts – L’All-Inclusive Réinventé</h1>
+          <h1 className="text-xl sm:text-xl md:text-4xl font-bold">Bienvenue chez Valeria Hotels & Resorts</h1>
+            <p className="text-white text-start text-xs  md:text-lg mt-2">L'élégance accessible, l'expérience tout compris réinventée.</p>
           </div>
 
           <div className="absolute bottom-6 sm:bottom-32 left-1/2 transform -translate-x-1/2 md:bottom-10 md:left-10 md:translate-x-0 text-white z-10 text-center md:text-start">
