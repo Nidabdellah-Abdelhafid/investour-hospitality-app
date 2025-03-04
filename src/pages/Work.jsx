@@ -62,9 +62,6 @@ function Work() {
               - Espaces dédiés au bien-être et à la détente
               </p>
               
-
-
-
             </div>
 
             <div className="md:w-full md:text-left">
