@@ -258,71 +258,95 @@ function BrandsVHR() {
 
         <div className="flex flex-col items-center justify-center py-10 px-8">
           {/* <h1 className="text-3xl font-bold mb-4 text-center">Investour Hospitality Brands</h1>
-          <p className="text-lg mb-8 text-center">Visit Our Brand Sites to Learn More</p> */}
+                <p className="text-lg mb-8 text-center">Visit Our Brand Sites to Learn More</p> */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {/* First Row - Four Images */}
-            <div className="relative group">
-              <img src={`${process.env.PUBLIC_URL}/img/v-r-1.jpg`} alt="Brand 1" className="w-full h-auto" />
+            <div className="relative group transform hover:scale-105 transition-transform duration-300">
+              <img
+                src={`${process.env.PUBLIC_URL}/img/v-r-1.jpg`}
+                alt="Brand 1"
+                className="w-full h-auto "
+              />
               {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div>
-                  <h2 className="text-xl font-bold">Karlton Hotel</h2>
-                  <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
-                  <button className="text-white px-4 py-2">LEARN MORE</button>
-                </div>
-              </div> */}
+                      <div>
+                        <h2 className="text-xl font-bold">Karlton Hotel</h2>
+                        <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
+                        <button className="text-white px-4 py-2">LEARN MORE</button>
+                      </div>
+                    </div> */}
             </div>
-            <div className="relative group">
-              <img src={`${process.env.PUBLIC_URL}/img/v-r-2.jpg`} alt="Brand 2" className="w-full h-auto" />
+            <div className="relative group transform hover:scale-105 transition-transform duration-300">
+              <img
+                src={`${process.env.PUBLIC_URL}/img/v-r-2.jpg`}
+                alt="Brand 2"
+                className="w-full h-auto"
+              />
               {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div>
-                  <h2 className="text-xl font-bold">Karlton Hotel</h2>
-                  <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
-                  <button className="text-white px-4 py-2">LEARN MORE</button>
-                </div>
-              </div> */}
+                      <div>
+                        <h2 className="text-xl font-bold">Karlton Hotel</h2>
+                        <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
+                        <button className="text-white px-4 py-2">LEARN MORE</button>
+                      </div>
+                    </div> */}
             </div>
-            <div className="relative group">
-              <img src={`${process.env.PUBLIC_URL}/img/v-r-3.jpg`} alt="Brand 3" className="w-full h-auto" />
+            <div className="relative group transform hover:scale-105 transition-transform duration-300">
+              <img
+                src={`${process.env.PUBLIC_URL}/img/v-r-3.jpg`}
+                alt="Brand 3"
+                className="w-full h-auto"
+              />
               {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div>
-                  <h2 className="text-xl font-bold">Karlton Hotel</h2>
-                  <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
-                  <button className="text-white px-4 py-2">LEARN MORE</button>
-                </div>
-              </div> */}
+                      <div>
+                        <h2 className="text-xl font-bold">Karlton Hotel</h2>
+                        <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
+                        <button className="text-white px-4 py-2">LEARN MORE</button>
+                      </div>
+                    </div> */}
             </div>
-            <div className="relative group">
-              <img src={`${process.env.PUBLIC_URL}/img/v-r-4.jpg`} alt="Brand 4" className="w-full md:h-[216px] h-auto" />
+            <div className="relative group transform hover:scale-105 transition-transform duration-300">
+              <img
+                src={`${process.env.PUBLIC_URL}/img/v-r-4.jpg`}
+                alt="Brand 4"
+                className="w-full md:h-[216px] h-auto"
+              />
               {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div>
-                  <h2 className="text-xl font-bold">Karlton Hotel</h2>
-                  <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
-                  <button className="text-white px-4 py-2">LEARN MORE</button>
-                </div>
-              </div> */}
+                      <div>
+                        <h2 className="text-xl font-bold">Karlton Hotel</h2>
+                        <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
+                        <button className="text-white px-4 py-2">LEARN MORE</button>
+                      </div>
+                    </div> */}
             </div>
           </div>
           {/* Second Row - Two Centered Responsive Images */}
           <div className="flex md:justify-center mt-6 flex-wrap">
-            <div className="relative w-full max-w-xl md:max-w-xs md:mx-2 group flex-1 min-w-[200px]">
-              <img src={`${process.env.PUBLIC_URL}/img/v-r-5.jpg`} alt="Brand 5" className="w-full h-[192px]" />
+            <div className="relative w-full max-w-xl md:max-w-xs md:mx-2 group flex-1 min-w-[200px] transform hover:scale-105 transition-transform duration-300">
+              <img
+                src={`${process.env.PUBLIC_URL}/img/v-r-5.jpg`}
+                alt="Brand 5"
+                className="w-full h-[192px]"
+              />
               {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div>
-                  <h2 className="text-xl font-bold">Karlton Hotel</h2>
-                  <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
-                  <button className="text-white px-4 py-2">LEARN MORE</button>
-                </div>
-              </div> */}
+                      <div>
+                        <h2 className="text-xl font-bold">Karlton Hotel</h2>
+                        <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
+                        <button className="text-white px-4 py-2">LEARN MORE</button>
+                      </div>
+                    </div> */}
             </div>
-            <div className="relative w-full max-w-xl md:max-w-xs mt-6 md:mt-0 md:mx-2 group flex-1 min-w-[200px]">
-              <img src={`${process.env.PUBLIC_URL}/img/v-r-6.jpg`} alt="Brand 6" className="w-full h-auto" />
+            <div className="relative w-full max-w-xl md:max-w-xs mt-6 md:mt-0 md:mx-2 group flex-1 min-w-[200px] transform hover:scale-105 transition-transform duration-300">
+              <img
+                src={`${process.env.PUBLIC_URL}/img/v-r-6.jpg`}
+                alt="Brand 6"
+                className="w-full h-auto"
+              />
               {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div>
-                  <h2 className="text-xl font-bold">Karlton Hotel</h2>
-                  <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
-                  <button className="text-white px-4 py-2">LEARN MORE</button>
-                </div>
-              </div> */}
+                      <div>
+                        <h2 className="text-xl font-bold">Karlton Hotel</h2>
+                        <p className="mb-4">Legendary service creates experiences so exceptional our guests can return simply by closing.</p>
+                        <button className="text-white px-4 py-2">LEARN MORE</button>
+                      </div>
+                    </div> */}
             </div>
           </div>
         </div>
